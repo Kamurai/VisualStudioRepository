@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewBag.Title = "Main";
+
+    var db1 = Database.Open("SQLServerConnectionString");
+    var selectQueryString1 = "SELECT * FROM Test";
+
+    var db2 = Database.Open("SQLServerExpressConnectionString");
+    var selectQueryString2 = "SELECT * FROM Test";
+}
+
+<h2>Main</h2>
+
+<div>
+    <form method="Post" action="/Main/Store">
+        <label>Name</label>
+        <input type="text" id="name" name="name"/>
+        <label>Age</label>
+        <input type="text" id="age" name="age"/>
+        <input type="submit" value="Add a person" />
+    </form>
+
+    
+
+</div>
+
+<table>
+    <tr>
+        <td>
+            SQL Server Instance
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>Index</th>
+        <th>Color</th>
+    </tr>
+    @foreach (var row in db1.Query(selectQueryString1))
+    {
+        <tr>
+            <td>@row.indext</td>
+            <td>@row.Color</td>
+        </tr>
+    }
+</table>
+<br />
+<br />
+<table>
+    <tr>
+        <td>
+            SQL Server Express Instance
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>Index</th>
+        <th>Color</th>
+    </tr>
+    @foreach (var row in db2.Query(selectQueryString2))
+    {
+        <tr>
+            <td>@row.indext</td>
+            <td>@row.Color</td>
+        </tr>
+    }
+</table> 
