@@ -1,0 +1,89 @@
+using System;
+// you can also use other imports, for example:
+// using System.Collections.Generic;
+
+// you can write to stdout for debugging purposes, e.g.
+// Console.WriteLine("this is a debug message");
+
+class Solution 
+{
+    public int solution(int[] A, int[] B, int M, int X, int Y) 
+    {
+        // write your code in C# 6.0 with .NET 4.5 (Mono)
+        int result = 0;
+        int limit = A.Length;
+        int currentPassengers = 0;
+        int currentWeight = 0;
+        bool toGround = false;
+        
+        
+        for(int x = 0; x < limit; x++)
+        {
+            //Console.WriteLine("Passenger x " + x);
+            
+            //load the lift based on number of people
+            if(currentPassengers < X)
+            {
+                //check new weight
+                if( (currentWeight + A[x]) < Y)
+                {
+                    //check floor
+                    if(currentPassengers > 0)
+                    {
+                        if( B[x] != B[x-1])
+                            result++; 
+                    }
+                    else
+                        result++;
+                        
+                        
+                    //load passenger
+                    currentWeight += A[x];
+                    //Console.WriteLine("current Weight " + currentWeight);
+                    currentPassengers++;
+                    //Console.WriteLine("current Passengers " + currentPassengers);
+                    
+                    
+                }
+                else
+                {
+                    toGround = true;
+                }
+                
+                
+            }
+            else
+            {
+                toGround = true;
+            }
+            
+            
+            if(currentPassengers+1 > X)
+            {
+                toGround = true;
+            }
+            if( (currentWeight + A[x]) > Y)
+            {
+                toGround = true;
+            }
+            if(x == limit-1)
+                toGround = true;
+                
+            if(toGround)
+            {
+                //Console.WriteLine("To Ground");
+                
+                //Empty lift
+                currentPassengers = 0;
+                currentWeight = 0;
+                //count return to ground
+                result++;
+                toGround = false;
+            }
+            //repeat
+        }
+        
+        
+        return result;
+    }
+}

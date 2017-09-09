@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Lab 3 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\CHRISK~1\LOCALS~1\Temp\RSP71.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Lab 3.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\House\Classes\C++ Programming\Lab 3\Lab 3.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\CHRISK~1\LOCALS~1\Temp\RSP71.tmp" 
+<h3>Output Window</h3>
+Compiling...
+Lab 3.cpp
+C:\House\Classes\C++ Programming\Lab 3\Lab 3.cpp(19) : error C2601: 'new_amount' : local function definitions are illegal
+C:\House\Classes\C++ Programming\Lab 3\Lab 3.cpp(19) : error C2063: 'new_amount' : not a function
+C:\House\Classes\C++ Programming\Lab 3\Lab 3.cpp(20) : error C2969: syntax error : '=' : expected member function definition to end with '}'
+C:\House\Classes\C++ Programming\Lab 3\Lab 3.cpp(20) : warning C4552: '*' : operator has no effect; expected operator with side-effect
+C:\House\Classes\C++ Programming\Lab 3\Lab 3.cpp(37) : error C2084: function 'int __cdecl main(void)' already has a body
+C:\House\Classes\C++ Programming\Lab 3\Lab 3.cpp(55) : warning C4552: '-' : operator has no effect; expected operator with side-effect
+C:\House\Classes\C++ Programming\Lab 3\Lab 3.cpp(61) : warning C4552: '+' : operator has no effect; expected operator with side-effect
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+Lab 3.obj - 4 error(s), 3 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,17 @@
+C:\Documents and Settings\ckemerai\Local Settings\Application Data\Temporary Projects\Kemerait_Lab_9_20090407\bin\Debug\Kemerait_Lab_9_20090407.exe
+C:\Documents and Settings\ckemerai\Local Settings\Application Data\Temporary Projects\Kemerait_Lab_9_20090407\bin\Debug\Kemerait_Lab_9_20090407.pdb
+C:\Documents and Settings\ckemerai\Local Settings\Application Data\Temporary Projects\Kemerait_Lab_9_20090407\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ckemerai\Local Settings\Application Data\Temporary Projects\Kemerait_Lab_9_20090407\obj\Debug\Kemerait_Lab_9_20090407.exe
+C:\Documents and Settings\ckemerai\Local Settings\Application Data\Temporary Projects\Kemerait_Lab_9_20090407\obj\Debug\Kemerait_Lab_9_20090407.pdb
+E:\School\Spring 09\C#\Programs\Kemerait_Lab_9_20090407\Kemerait_Lab_9_20090407\obj\Debug\Kemerait_Lab_9_20090407.exe
+E:\School\Spring 09\C#\Programs\Kemerait_Lab_9_20090407\Kemerait_Lab_9_20090407\obj\Debug\Kemerait_Lab_9_20090407.pdb
+E:\School\Spring 09\C#\Programs\Kemerait_Lab_9_20090407\Kemerait_Lab_9_20090407\obj\Debug\ResolveAssemblyReference.cache
+E:\School\Spring 09\C#\Programs\Kemerait_Lab_9_20090407\Kemerait_Lab_9_20090407\bin\Debug\Kemerait_Lab_9_20090407.exe
+E:\School\Spring 09\C#\Programs\Kemerait_Lab_9_20090407\Kemerait_Lab_9_20090407\bin\Debug\Kemerait_Lab_9_20090407.pdb
+L:\School\Spring 09\C#\Programs\Kemerait_Lab_9_20090407\Kemerait_Lab_9_20090407\obj\Debug\Kemerait_Lab_9_20090407.exe
+L:\School\Spring 09\C#\Programs\Kemerait_Lab_9_20090407\Kemerait_Lab_9_20090407\obj\Debug\Kemerait_Lab_9_20090407.pdb
+L:\School\Spring 09\C#\Programs\Kemerait_Lab_9_20090407\Kemerait_Lab_9_20090407\bin\Debug\Kemerait_Lab_9_20090407.exe
+L:\School\Spring 09\C#\Programs\Kemerait_Lab_9_20090407\Kemerait_Lab_9_20090407\bin\Debug\Kemerait_Lab_9_20090407.pdb
+L:\School\Spring 09\C#\Programs\Kemerait_Lab_9_20090407\Kemerait_Lab_9_20090407\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\0148\Programming\CS 2350\Kemerait_Lab_9_20090407\Kemerait_Lab_9_20090407\obj\Debug\Kemerait_Lab_9_20090407.exe
+C:\Users\0148\Programming\CS 2350\Kemerait_Lab_9_20090407\Kemerait_Lab_9_20090407\obj\Debug\Kemerait_Lab_9_20090407.pdb

@@ -1,0 +1,11 @@
+Enter the number of elements the vector should contain.
+5
+
+
+The randomly generated vector is displayed as follows:
+71  65  90  6  28
+
+
+The written stree based on the vector is displayed as follows:
+6 28 65 71 90
+Press any key to continue . . .

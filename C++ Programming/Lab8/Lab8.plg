@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Lab8 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\CHRISK~1\LOCALS~1\Temp\RSP10.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Lab8.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\House\Classes\C++ Programming\Lab8\Lab8.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\CHRISK~1\LOCALS~1\Temp\RSP10.tmp" 
+<h3>Output Window</h3>
+Compiling...
+Lab8.cpp
+C:\House\Classes\C++ Programming\Lab8\Lab8.cpp(13) : error C2065: 'complex' : undeclared identifier
+C:\House\Classes\C++ Programming\Lab8\Lab8.cpp(13) : error C2146: syntax error : missing ')' before identifier 'a'
+C:\House\Classes\C++ Programming\Lab8\Lab8.cpp(13) : error C2182: 'addition' : illegal use of type 'void'
+C:\House\Classes\C++ Programming\Lab8\Lab8.cpp(13) : error C2059: syntax error : ')'
+C:\House\Classes\C++ Programming\Lab8\Lab8.cpp(14) : error C2146: syntax error : missing ')' before identifier 'a'
+C:\House\Classes\C++ Programming\Lab8\Lab8.cpp(14) : error C2182: 'subtraction' : illegal use of type 'void'
+C:\House\Classes\C++ Programming\Lab8\Lab8.cpp(14) : error C2059: syntax error : ')'
+C:\House\Classes\C++ Programming\Lab8\Lab8.cpp(16) : error C2146: syntax error : missing ';' before identifier 'added'
+C:\House\Classes\C++ Programming\Lab8\Lab8.cpp(16) : error C2501: 'complex' : missing storage-class or type specifiers
+C:\House\Classes\C++ Programming\Lab8\Lab8.cpp(16) : fatal error C1004: unexpected end of file found
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+Lab8.obj - 10 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

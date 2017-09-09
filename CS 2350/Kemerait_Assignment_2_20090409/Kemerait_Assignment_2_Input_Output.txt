@@ -1,0 +1,55 @@
+Kemerait_Assignment_2_20090409_Input_Output
+
+
+
+Input:
+Bah bah black sheep, have you any wool?  Yes, sir!  Yes, sir!  Three bags full.
+
+
+
+Output:
+
+
+We're here to help you count characters in a string.
+
+Please input some words from which you would like to count characters.
+Bah bah black sheep, have you any wool?  Yes, sir!  Yes, sir!  Three bags full.
+
+
+The words in your input:
+
+Bah bah black sheep, have you any wool?  Yes, sir!  Yes, sir!  Three bags full.
+
+
+Character B             Occurs: 1 and is a Upper Case Letter
+Character a             Occurs: 6 and is a Lower Case Letter
+Character h             Occurs: 5 and is a Lower Case Letter
+Character               Occurs: 17 and is a Space
+Character b             Occurs: 3 and is a Lower Case Letter
+Character l             Occurs: 4 and is a Lower Case Letter
+Character c             Occurs: 1 and is a Lower Case Letter
+Character k             Occurs: 1 and is a Lower Case Letter
+Character s             Occurs: 6 and is a Lower Case Letter
+Character e             Occurs: 7 and is a Lower Case Letter
+Character p             Occurs: 1 and is a Lower Case Letter
+Character ,             Occurs: 3 and is a Punctuation
+Character v             Occurs: 1 and is a Lower Case Letter
+Character y             Occurs: 2 and is a Lower Case Letter
+Character o             Occurs: 3 and is a Lower Case Letter
+Character u             Occurs: 2 and is a Lower Case Letter
+Character n             Occurs: 1 and is a Lower Case Letter
+Character w             Occurs: 1 and is a Lower Case Letter
+Character ?             Occurs: 1 and is a Punctuation
+Character Y             Occurs: 2 and is a Upper Case Letter
+Character i             Occurs: 2 and is a Lower Case Letter
+Character r             Occurs: 3 and is a Lower Case Letter
+Character !             Occurs: 2 and is a Punctuation
+Character T             Occurs: 1 and is a Upper Case Letter
+Character g             Occurs: 1 and is a Lower Case Letter
+Character f             Occurs: 1 and is a Lower Case Letter
+Character .             Occurs: 1 and is a Punctuation
+
+
+Would you like to start anew?
+1) Yes.
+2) I'm done for now.

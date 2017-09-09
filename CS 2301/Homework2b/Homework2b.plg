@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Homework2b - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\CHRISK~1\LOCALS~1\Temp\RSP10F.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Homework2b.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\House\Classes\C++ Programming\Homework2b\Homework2b.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\CHRISK~1\LOCALS~1\Temp\RSP10F.tmp" 
+Creating temporary file "C:\DOCUME~1\CHRISK~1\LOCALS~1\Temp\RSP110.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Homework2b.pdb" /debug /machine:I386 /out:"Debug/Homework2b.exe" /pdbtype:sept 
+".\Debug\Homework2b.obj"
+".\Debug\PageM.obj"
+".\Debug\RowM.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\CHRISK~1\LOCALS~1\Temp\RSP110.tmp"
+<h3>Output Window</h3>
+Compiling...
+Homework2b.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Homework2b.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

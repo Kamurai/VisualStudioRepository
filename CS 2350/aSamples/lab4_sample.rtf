@@ -1,0 +1,192 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fprq1\fcharset0 Courier New;}{\f1\fmodern\fprq6\fcharset134 SimSun;}}
+{\colortbl ;\red0\green0\blue255;\red43\green145\blue175;\red163\green21\blue21;\red0\green128\blue0;}
+{\*\generator Msftedit 5.41.15.1507;}\viewkind4\uc1\pard\cf1\f0\fs20 using\cf0  System;\par
+\cf1 using\cf0  System.Collections.Generic;\par
+\cf1 using\cf0  System.Collections;\par
+\cf1 using\cf0  System.Linq;\par
+\cf1 using\cf0  System.Text;\par
+\par
+\cf1 namespace\cf0  ConsoleApplication7\par
+\{\par
+\par
+    \par
+    \cf1 class\cf0  \cf2 Program\par
+\cf0     \{\par
+        \cf1 static\cf0  \cf1 void\cf0  Main(\cf1 string\cf0 [] args)\par
+        \{\par
+            \cf2 Boolean\cf0  run = \cf1 true\cf0 ;\par
+\par
+            \cf1 while\cf0  (run)\par
+            \{\par
+                \cf2 Console\cf0 .Clear();\par
+                \cf2 Console\cf0 .WriteLine(\cf3 "Which program would you like to see? (1-4, q-quit)"\cf0 );\par
+                \cf2 String\cf0  prog = \cf2 Console\cf0 .ReadLine();\par
+\par
+\par
+                \cf1 if\cf0  (prog == \cf3 "1"\cf0 )\par
+                \{\par
+                    \cf4 //********************************** #1 ************************************\par
+\cf0                     \cf2 Boolean\cf0  stop = \cf1 false\cf0 ;\par
+                    \cf1 double\cf0  max = 0, min = 0;\par
+                    \par
+                    \cf1 while\cf0  (stop == \cf1 false\cf0 )\par
+                    \{\par
+                        \cf2 Console\cf0 .WriteLine(\cf3 "Please insert a number"\cf0 );\par
+                        \cf2 String\cf0  number = \cf2 Console\cf0 .ReadLine();\par
+                        \cf1 double\cf0  num = \cf2 Convert\cf0 .ToDouble(number);\par
+\par
+                        \cf1 if\cf0  (min == 0)\par
+                        \{\par
+                            min = num;\par
+                            max = num;\par
+                        \}\par
+                        \cf1 if\cf0  (num > max)\par
+                            max = num;\par
+                        \cf1 else\cf0  \cf1 if\cf0  (num < min)\par
+                            min = num;\par
+\par
+                        \cf2 Console\cf0 .WriteLine(\cf3 "Would you like to input another number? y-yes n-no"\cf0 );\par
+                        \cf2 String\cf0  test = \cf2 Console\cf0 .ReadLine();\par
+\par
+                        \cf1 if\cf0  (test == \cf3 "n"\cf0 )\par
+                            stop = \cf1 true\cf0 ;\par
+                    \}\par
+                    \cf2 Console\cf0 .WriteLine(\cf3 "Max: "\cf0  + max + \cf3 "\\nMin: "\cf0  + min);\par
+                    \cf2 Console\cf0 .ReadLine();\par
+                \}\par
+\par
+                \cf1 if\cf0  (prog == \cf3 "2"\cf0 )\par
+                \{\par
+                    \cf4 //********************************** #2 ************************************\par
+\par
+\cf0                     \cf1 double\cf0  pi = 3.14159;\par
+\par
+                    \cf2 Console\cf0 .WriteLine(\cf3 "Please input radius "\cf0 );\par
+                    \cf2 String\cf0  radius = \cf2 Console\cf0 .ReadLine();\par
+                    \cf2 Double\cf0  rad = \cf2 Convert\cf0 .ToDouble(radius);\par
+\par
+                    \cf2 Double\cf0  circumference = (2 * pi * rad);\par
+                    \cf2 Console\cf0 .WriteLine(\cf3 "Circumference: "\cf0  + \cf3 "\{0:F3\}"\cf0 , circumference);\par
+                    \cf2 Console\cf0 .ReadLine();\par
+\par
+                \}\par
+\par
+                \cf1 if\cf0  (prog == \cf3 "3"\cf0 )\par
+                \{\par
+                    \cf4 //********************************** #3 ************************************\par
+\par
+\cf0                     \cf2 Console\cf0 .WriteLine(\cf3 "How many cents do you have"\cf0 );\par
+                    \cf2 String\cf0  c = \cf2 Console\cf0 .ReadLine();\par
+                    \cf1 int\cf0  cents = \cf2 Convert\cf0 .ToInt16(c);\par
+\par
+                    \cf1 if\cf0  (cents / 25 != 0)\par
+                    \{\par
+                        \cf1 int\cf0  quarters = cents / 25;\par
+                        \cf2 Console\cf0 .WriteLine(quarters + \cf3 " QUARTER"\cf0 );\par
+                        cents -= quarters * 25;\par
+                        \cf4 //             Console.WriteLine("cents: " + cents);\par
+\par
+\cf0                     \}\par
+                    \cf1 if\cf0  (cents / 10 != 0)\par
+                    \{\par
+                        \cf1 int\cf0  dimes = cents / 10;\par
+                        \cf2 Console\cf0 .WriteLine(dimes + \cf3 " DIMES"\cf0 );\par
+                        cents -= dimes * 10;\par
+                        \cf4 //              Console.WriteLine("cents: " + cents);\par
+\par
+\cf0                     \}\par
+                    \cf1 if\cf0  (cents / 5 != 0)\par
+                    \{\par
+                        \cf1 int\cf0  nickle = cents / 5;\par
+                        \cf2 Console\cf0 .WriteLine(nickle + \cf3 " NICKLE"\cf0 );\par
+                        cents -= nickle * 5;\par
+                        \cf4 //              Console.WriteLine("cents: " + cents);\par
+\par
+\cf0                     \}\par
+                    \cf1 if\cf0  (cents / 1 != 0)\par
+                    \{\par
+                        \cf1 int\cf0  penny = cents / 1;\par
+                        \cf2 Console\cf0 .WriteLine(penny + \cf3 " PENNY"\cf0 );\par
+                        cents -= penny;\par
+                        \cf4 //              Console.WriteLine("cents: " + cents);\par
+\cf0                     \}\par
+\par
+\par
+                    \cf2 Console\cf0 .ReadLine();\par
+\par
+                \}\par
+\par
+                \cf1 if\cf0  (prog == \cf3 "4"\cf0 )\par
+                \{\par
+                    \cf4 //********************************** #4 ************************************\par
+\par
+\cf0                     \cf1 const\cf0  \cf1 int\cf0  SQ_FT_PER_SQ_YARD = 9;\par
+                    \cf1 const\cf0  \cf1 int\cf0  INCHES_PER_FOOT = 12;\par
+                    \cf1 const\cf0  \cf1 string\cf0  BEST_CARPET = \cf3 "Berber"\cf0 ;\par
+                    \cf1 const\cf0  \cf1 string\cf0  ECONOMY_CARPET = \cf3 "Pile"\cf0 ;\par
+\par
+                    \cf2 String\cf0  l = \cf3 ""\cf0 ;\par
+                    \cf1 int\cf0  counter = 1;\par
+                    \cf2 List\cf0 <\cf1 double\cf0 > numOfSquareYards = \cf1 new\cf0  \cf2 List\cf0 <\cf1 double\cf0 >();\par
+\par
+                    \cf1 double\cf0  roomLength = 0,\par
+                        roomWidth = 0,\par
+                        carpetPrice = 0,\par
+                        numOfSquareFeet = 0,\par
+                        totalCost = 0,\par
+                        priceBerber = 0,\par
+                        pricePile = 0;\par
+\par
+\par
+                    \cf1 while\cf0  (counter < 6)\par
+                    \{\par
+                        \cf2 Console\cf0 .WriteLine(\cf3 "Room "\cf0  + counter + \cf3 "'s length (number of feet)"\cf0 );\par
+                        l = \cf2 Console\cf0 .ReadLine();\par
+                        \cf1 int\cf0  roomLengthFeet = \cf2 Convert\cf0 .ToInt16(l);\par
+\par
+                        \cf2 Console\cf0 .WriteLine(\cf3 "Room "\cf0  + counter + \cf3 "'s length (number of inches)"\cf0 );\par
+                        l = \cf2 Console\cf0 .ReadLine();\par
+                        \cf1 int\cf0  roomLengthInches = \cf2 Convert\cf0 .ToInt16(l);\par
+\par
+                        \cf2 Console\cf0 .WriteLine(\cf3 "Room "\cf0  + counter + \cf3 "'s width (number of feet)"\cf0 );\par
+                        l = \cf2 Console\cf0 .ReadLine();\par
+                        \cf1 int\cf0  roomWidthFeet = \cf2 Convert\cf0 .ToInt16(l);\par
+\par
+                        \cf2 Console\cf0 .WriteLine(\cf3 "Room "\cf0  + counter + \cf3 "'s width (number of inches)"\cf0 );\par
+                        l = \cf2 Console\cf0 .ReadLine();\par
+                        \cf1 int\cf0  roomWidthInches = \cf2 Convert\cf0 .ToInt16(l);\par
+\par
+                        roomLength = roomLengthFeet + roomLengthInches / INCHES_PER_FOOT;\par
+                        roomWidth = roomWidthFeet + roomWidthInches / INCHES_PER_FOOT;\par
+                        numOfSquareFeet = roomLength * roomWidth;\par
+\par
+                        numOfSquareYards.Add(numOfSquareFeet / SQ_FT_PER_SQ_YARD);\par
+\par
+                        counter++;\par
+                    \}\par
+\par
+\par
+                    numOfSquareYards.Sort();\par
+\par
+                    \cf1 for\cf0  (\cf1 int\cf0  i = 0; i < 2; i++)\par
+                    \{\par
+                        priceBerber += numOfSquareYards[i] * 27.95;\par
+                    \}\par
+                    \cf1 for\cf0  (\cf1 int\cf0  i = 2; i < 5; i++)\par
+                    \{\par
+                        pricePile += numOfSquareYards[i] * 15.95;\par
+                    \}\par
+\par
+                    \cf2 Console\cf0 .WriteLine(\cf3 "Price of Berber: \{0:c\}"\cf0 , priceBerber);\par
+                    \cf2 Console\cf0 .WriteLine(\cf3 "Price of Pile: \{0:c\}"\cf0 , pricePile);\par
+                    \cf2 Console\cf0 .ReadLine();\par
+\par
+                \}\par
+                \cf1 if\cf0  (prog == \cf3 "q"\cf0 )\par
+                    run = \cf1 false\cf0 ;\par
+            \}\par
+        \}\par
+    \}\par
+\}\lang2052\f1\par
+}
+ 

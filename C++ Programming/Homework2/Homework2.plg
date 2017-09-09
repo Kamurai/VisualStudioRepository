@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Homework2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\CRISKA~1\LOCALS~1\Temp\RSP87.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Homework2.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\House\Classes\C++ Programming\Homework2\Homework2.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\CRISKA~1\LOCALS~1\Temp\RSP87.tmp" 
+Creating temporary file "D:\DOCUME~1\CRISKA~1\LOCALS~1\Temp\RSP88.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Homework2.pdb" /debug /machine:I386 /out:"Debug/Homework2.exe" /pdbtype:sept 
+".\Debug\Homework2.obj"
+]
+Creating command line "link.exe @D:\DOCUME~1\CRISKA~1\LOCALS~1\Temp\RSP88.tmp"
+<h3>Output Window</h3>
+Compiling...
+Homework2.cpp
+D:\House\Classes\C++ Programming\Homework2\Homework2.cpp(64) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+D:\House\Classes\C++ Programming\Homework2\Homework2.cpp(64) : error C2146: syntax error : missing ';' before identifier 'main'
+D:\House\Classes\C++ Programming\Homework2\Homework2.cpp(64) : fatal error C1004: unexpected end of file found
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+Homework2.exe - 2 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

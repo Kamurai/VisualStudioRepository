@@ -1,0 +1,4 @@
+"Payroll report for Week ending 4/15/99"
+"Ad Adams", 6.5, 38
+"Bob Brown", 5.7, 50
+"Carol Coe", 7.0, 40

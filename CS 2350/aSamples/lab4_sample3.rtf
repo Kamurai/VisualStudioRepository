@@ -1,0 +1,390 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fprq1\fcharset0 Courier New;}{\f1\fmodern\fprq6\fcharset134 SimSun;}}
+{\colortbl ;\red0\green128\blue0;\red0\green0\blue255;\red43\green145\blue175;\red163\green21\blue21;}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard\f0\fs20\par
+\par
+\par
+\par
+\cf1 // Patrick Reel\par
+// CS 2350/01\par
+// Lab 3\par
+\par
+\par
+\cf2 using\cf0  System;\par
+\cf2 using\cf0  System.Collections.Generic;\par
+\cf2 using\cf0  System.Linq;\par
+\cf2 using\cf0  System.Text;\par
+\par
+\cf2 namespace\cf0  ConsoleApplication5\par
+\{\par
+    \cf2 class\cf0  \cf3 Lab3\par
+\cf0     \{\par
+\par
+\par
+        \cf2 public\cf0  \cf2 enum\cf0  \cf3 Choices\par
+\cf0         \{\par
+            MaxandMin,\par
+            Circumference,\par
+            Change,\par
+            Carpet,\par
+            Quit\par
+        \}\par
+\par
+        \cf2 public\cf0  \cf2 class\cf0  \cf3 Room\par
+\cf0         \{\par
+            \cf2 private\cf0  \cf2 string\cf0  name;\par
+            \cf2 private\cf0  \cf2 double\cf0  hFt;\par
+            \cf2 private\cf0  \cf2 double\cf0  hIn;\par
+            \cf2 private\cf0  \cf2 double\cf0  wFt;\par
+            \cf2 private\cf0  \cf2 double\cf0  wIn;\par
+\par
+\par
+            \cf2 public\cf0  Room()\par
+            \{\par
+                name = \cf4 " "\cf0 ;\par
+                hFt = 0.0;\par
+                hIn = 0.0;\par
+                wFt = 0.0;\par
+                wIn = 0.0;\par
+            \}\par
+\par
+            \cf2 public\cf0  Room(\cf2 string\cf0  n, \cf2 double\cf0  h1, \cf2 double\cf0  h2, \cf2 double\cf0  w1, \cf2 double\cf0  w2)\par
+            \{\par
+                name = n;\par
+                hFt = h1;\par
+                hIn = h2;\par
+                wFt = w1;\par
+                wIn = w2;\par
+            \}\par
+\par
+            \cf2 public\cf0  \cf2 void\cf0  setName(\cf2 string\cf0  n1)\par
+            \{\par
+                name = n1;\par
+            \}\par
+\par
+            \cf2 public\cf0  \cf2 void\cf0  setHeightFt(\cf2 double\cf0  a)\par
+            \{\par
+                hFt = a;\par
+            \}\par
+            \cf2 public\cf0  \cf2 void\cf0  setHeightIn(\cf2 double\cf0  b)\par
+            \{\par
+                hIn = b;\par
+            \}\par
+\par
+            \cf2 public\cf0  \cf2 void\cf0  setWidthFt(\cf2 double\cf0  c)\par
+            \{\par
+                wFt = c;\par
+            \}\par
+\par
+            \cf2 public\cf0  \cf2 void\cf0  setWidthIn(\cf2 double\cf0  d)\par
+            \{\par
+                wIn = d;\par
+            \}\par
+\par
+            \cf2 public\cf0  \cf3 String\cf0  getName()\par
+            \{\par
+                \cf2 return\cf0  name;\par
+            \}\par
+\par
+            \cf2 public\cf0  \cf2 double\cf0  getSize()\par
+            \{\par
+                \cf1 //converts to inches\par
+\cf0                 \cf2 double\cf0  feet = hFt * 12;\par
+                \cf2 double\cf0  feet2 = wFt * 12;\par
+                \cf1 //converts to yrds\par
+\cf0                 \cf2 double\cf0  hYrds = (feet + hIn) / 36;\par
+                \cf2 double\cf0  wYrds = (feet2 + wIn) / 36;\par
+                \cf1 //gets yrds Sqed\par
+\cf0                 \cf2 double\cf0  totalyrds = hYrds * wYrds;\par
+\par
+                \cf2 return\cf0  totalyrds;\par
+            \}\par
+\par
+            \cf2 public\cf0  \cf2 double\cf0  getBerberPrice()\par
+            \{\par
+                \cf2 double\cf0  price1 = \cf2 this\cf0 .getSize() * 27.95;\par
+                \cf2 return\cf0  price1;\par
+            \}\par
+\par
+            \cf2 public\cf0  \cf2 double\cf0  getPilePrice()\par
+            \{\par
+                \cf2 double\cf0  price2 = \cf2 this\cf0 .getSize() * 15.95;\par
+                \cf2 return\cf0  price2;\par
+            \}\par
+        \}\par
+\par
+\par
+        \cf2 static\cf0  \cf2 void\cf0  Main(\cf2 string\cf0 [] args)\par
+        \{\par
+            \cf2 while\cf0  (\cf2 true\cf0 )\par
+            \{\par
+                \cf3 Choices\cf0  c = getChoiceFromUser();\par
+\par
+                \cf2 switch\cf0  (c)\par
+                \{\par
+                    \cf2 case\cf0  \cf3 Choices\cf0 .Quit:\par
+                        \cf2 return\cf0 ;\par
+                    \cf2 case\cf0  \cf3 Choices\cf0 .MaxandMin:\par
+                        getMaxandMin();\par
+                        \cf2 break\cf0 ;\par
+                    \cf2 case\cf0  \cf3 Choices\cf0 .Circumference:\par
+                        getCircumference();\par
+                        \cf2 break\cf0 ;\par
+                    \cf2 case\cf0  \cf3 Choices\cf0 .Change:\par
+                        getChange();\par
+                        \cf2 break\cf0 ;\par
+                    \cf2 case\cf0  \cf3 Choices\cf0 .Carpet:\par
+                        getCarpet();\par
+                        \cf2 break\cf0 ;\par
+                \}\par
+            \}\par
+        \}\par
+\par
+        \cf2 static\cf0  \cf3 Choices\cf0  getChoiceFromUser()\par
+        \{\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "Please select your option\\nPress:\\n1 : Max and Min numbers"\cf0  +\par
+                                    \cf4 "\\n2 : Circumference\\n3 : Change\\n4 : Carpet"\cf0  +\par
+                                    \cf4 "\\n5 : Quit"\cf0 );\par
+\par
+            \cf2 while\cf0  (\cf2 true\cf0 )\par
+            \{\par
+                \cf3 String\cf0  selection = \cf3 Console\cf0 .ReadLine().Trim();\par
+\par
+                \cf2 switch\cf0  (selection)\par
+                \{\par
+                    \cf2 case\cf0  \cf4 "1"\cf0 :\par
+                        \cf2 return\cf0  \cf3 Choices\cf0 .MaxandMin;\par
+\par
+                    \cf2 case\cf0  \cf4 "2"\cf0 :\par
+                        \cf2 return\cf0  \cf3 Choices\cf0 .Circumference;\par
+\par
+                    \cf2 case\cf0  \cf4 "3"\cf0 :\par
+                        \cf2 return\cf0  \cf3 Choices\cf0 .Change;\par
+\par
+                    \cf2 case\cf0  \cf4 "4"\cf0 :\par
+                        \cf2 return\cf0  \cf3 Choices\cf0 .Carpet;\par
+\par
+                    \cf2 case\cf0  \cf4 "5"\cf0 :\par
+                        \cf2 return\cf0  \cf3 Choices\cf0 .Quit;\par
+\par
+                    \cf2 default\cf0 :\par
+                        \cf3 Console\cf0 .WriteLine(\cf4 "Invaild selection"\cf0 );\par
+                        \cf2 break\cf0 ;\par
+                \}\par
+            \}\par
+        \}\par
+\par
+\par
+        \cf2 static\cf0  \cf2 void\cf0  getMaxandMin()\par
+        \{\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "Do the numbers have decimals? \\n 1 : yes\\n2 : no"\cf0 );\par
+            \cf3 String\cf0  sel = \cf3 Console\cf0 .ReadLine().Trim();\par
+\par
+            \cf2 switch\cf0  (sel)\par
+            \{\par
+                \cf1 //calls a method to handle doubles\par
+\cf0                 \cf2 case\cf0  \cf4 "1"\cf0 :\par
+                    decimals();\par
+                    \cf2 break\cf0 ;\par
+                \cf1 //calls a method to handle ints\par
+\cf0                 \cf2 case\cf0  \cf4 "2"\cf0 :\par
+                    noDecimals();\par
+                    \cf2 break\cf0 ;\par
+            \}\par
+        \}\par
+\par
+        \cf1 //find the max and min numbers of a series of double variables\par
+\cf0         \cf2 static\cf0  \cf2 void\cf0  decimals()\par
+        \{\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "How many numbers do you wish to input?"\cf0 );\par
+            \cf2 int\cf0  size = \cf3 Convert\cf0 .ToInt32(\cf3 Console\cf0 .ReadLine());\par
+            \cf2 double\cf0 [] d = \cf2 new\cf0  \cf2 double\cf0 [size];\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "Enter a number"\cf0 );\par
+            \cf2 double\cf0  inp = \cf3 Convert\cf0 .ToDouble(\cf3 Console\cf0 .ReadLine());\par
+            d[0] = inp;\par
+            \cf2 double\cf0  max = d[0];\par
+            \cf2 double\cf0  min = d[0];\par
+\par
+            \cf1 //fills the array and finds the max and min in the array\par
+\cf0             \cf2 for\cf0  (\cf2 int\cf0  i = 1; i < d.Length; i++)\par
+            \{\par
+                \cf3 Console\cf0 .WriteLine(\cf4 "Enter another number"\cf0 );\par
+                inp = \cf3 Convert\cf0 .ToDouble(\cf3 Console\cf0 .ReadLine());\par
+                \cf2 if\cf0  (inp > max)\par
+                    max = inp;\par
+                \cf2 else\cf0  \cf2 if\cf0  (inp < min)\par
+                    min = inp;\par
+\par
+                d[i] = inp;\par
+            \}\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "\\nThe max was  : "\cf0  + max + \cf4 "\\nThe min was : "\cf0  + min);\par
+            \cf3 Console\cf0 .WriteLine();\par
+        \}\par
+\par
+        \cf1 //finds the max and the min number among a series of int variables\par
+\cf0         \cf2 static\cf0  \cf2 void\cf0  noDecimals()\par
+        \{\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "How many numbers do you wish to input?"\cf0 );\par
+            \cf2 int\cf0  size2 = \cf3 Convert\cf0 .ToInt32(\cf3 Console\cf0 .ReadLine());\par
+            \cf2 int\cf0 [] i = \cf2 new\cf0  \cf2 int\cf0 [size2];\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "Enter a number"\cf0 );\par
+            \cf2 int\cf0  inp2 = \cf3 Convert\cf0 .ToInt32(\cf3 Console\cf0 .ReadLine());\par
+            i[0] = inp2;\par
+            \cf2 int\cf0  max2 = i[0];\par
+            \cf2 int\cf0  min2 = i[0];\par
+\par
+            \cf1 //fills the array and finds the max and min in the array\par
+\cf0             \cf2 for\cf0  (\cf2 int\cf0  j = 1; j < i.Length; j++)\par
+            \{\par
+                \cf3 Console\cf0 .WriteLine(\cf4 "Enter another number"\cf0 );\par
+                inp2 = \cf3 Convert\cf0 .ToInt32(\cf3 Console\cf0 .ReadLine());\par
+                \cf2 if\cf0  (inp2 > max2)\par
+                    max2 = inp2;\par
+                \cf2 else\cf0  \cf2 if\cf0  (inp2 < min2)\par
+                    min2 = inp2;\par
+\par
+                i[j] = inp2;\par
+            \}\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "\\nThe max was  : "\cf0  + max2 + \cf4 "\\nThe min was : "\cf0  + min2);\par
+            \cf3 Console\cf0 .WriteLine();\par
+        \}\par
+\par
+        \cf1 //finds the circumference of a circle with the radius inputed by the user\par
+\cf0         \cf2 static\cf0  \cf2 void\cf0  getCircumference()\par
+        \{\par
+            \cf2 const\cf0  \cf2 double\cf0  pi = 3.14159;\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "Enter a radius value"\cf0 );\par
+\par
+            \cf2 double\cf0  rad = \cf3 Convert\cf0 .ToDouble(\cf3 Console\cf0 .ReadLine());\par
+\par
+            \cf2 double\cf0  cir = 2 * pi * rad;\par
+\par
+\par
+\par
+            \cf3 Console\cf0 .Write(\cf4 "The circumference is "\cf0 );\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "\{0:F3\}"\cf0 , cir);\par
+        \}\par
+\par
+        \cf2 static\cf0  \cf2 void\cf0  getChange()\par
+        \{\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "Enter the amount of change"\cf0 );\par
+            \cf2 int\cf0  change = \cf3 Convert\cf0 .ToInt32(\cf3 Console\cf0 .ReadLine());\par
+            \cf2 int\cf0  quarters = change / 25;\par
+            change = change - (25 * quarters);\par
+            \cf2 int\cf0  dimes = change / 10;\par
+            change = change - (10 * dimes);\par
+            \cf2 int\cf0  nickels = change / 5;\par
+            change = change - (5 * nickels);\par
+            \cf2 int\cf0  pennies = change;\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "You should recieve "\cf0  + quarters + \cf4 " quarters, "\cf0  +\par
+                                    dimes + \cf4 " dimes, "\cf0  + nickels + \cf4 " nickels, "\cf0  + pennies + \cf4 " pennies"\cf0 );\par
+        \}\par
+\par
+        \cf2 static\cf0  \cf2 void\cf0  getCarpet()\par
+        \{\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "How many rooms do you wish to carpet?"\cf0 );\par
+            \cf2 int\cf0  rooms = \cf3 Convert\cf0 .ToInt32(\cf3 Console\cf0 .ReadLine());\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "How many rooms to you wish to use Berber carpet in"\cf0 );\par
+            \cf2 int\cf0  berber = \cf3 Convert\cf0 .ToInt32(\cf3 Console\cf0 .ReadLine());\par
+\par
+            \cf2 int\cf0  econ = rooms - berber;\par
+\par
+            \cf3 Room\cf0 [] room = \cf2 new\cf0  \cf3 Room\cf0 [rooms];\par
+\par
+\par
+            \cf2 for\cf0  (\cf2 int\cf0  i = 0; i < room.Length; i++)\par
+            \{\par
+                \cf3 Room\cf0  r = \cf2 new\cf0  \cf3 Room\cf0 ();\par
+                \cf3 Console\cf0 .WriteLine(\cf4 "Enter the name of the room: (ex. Bedroom 1 or Sunroom)"\cf0 );\par
+                r.setName(\cf3 Convert\cf0 .ToString(\cf3 Console\cf0 .ReadLine()));\par
+                \cf3 Console\cf0 .WriteLine(r.getName() + \cf4 "\\nWhat is the length of the room?\\nFeet : "\cf0 );\par
+                r.setHeightFt(\cf3 Convert\cf0 .ToDouble(\cf3 Console\cf0 .ReadLine()));\par
+                \cf3 Console\cf0 .WriteLine(\cf4 "Inches :"\cf0 );\par
+                r.setHeightIn(\cf3 Convert\cf0 .ToDouble(\cf3 Console\cf0 .ReadLine()));\par
+                \cf3 Console\cf0 .WriteLine(\cf4 "What is the height of the room?\\nFeet : "\cf0 );\par
+                r.setWidthFt(\cf3 Convert\cf0 .ToDouble(\cf3 Console\cf0 .ReadLine()));\par
+                \cf3 Console\cf0 .WriteLine(\cf4 "Inches :"\cf0 );\par
+                r.setWidthIn(\cf3 Convert\cf0 .ToDouble(\cf3 Console\cf0 .ReadLine()));\par
+\par
+\par
+\par
+\par
+                room[i] = r;\par
+\par
+\par
+            \}\par
+\par
+            \cf1 //sorts the array of rooms from smallest to largest\par
+\cf0             sortList(room);\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "The best way to carpet the floors with the "\cf0  + berber + \cf4 " rooms with Berber Carpet is..."\cf0 );\par
+            \cf2 for\cf0  (\cf2 int\cf0  i = 0; i < berber; i++)\par
+            \{\par
+                \cf3 Console\cf0 .Write(room[i].getName() + \cf4 " with Berber at a price of "\cf0 );\par
+                \cf3 Console\cf0 .Write(\cf4 "\{0:c\}"\cf0 , room[i].getBerberPrice());\par
+                \cf3 Console\cf0 .WriteLine();\par
+\par
+            \}\par
+\par
+            \cf2 for\cf0  (\cf2 int\cf0  i = berber; i < room.Length; i++)\par
+            \{\par
+                \cf3 Console\cf0 .Write(room[i].getName() + \cf4 " with Pile at a price of "\cf0 );\par
+                \cf3 Console\cf0 .WriteLine(\cf4 "\{0:c\}"\cf0 , room[i].getPilePrice());\par
+                \cf3 Console\cf0 .WriteLine();\par
+            \}\par
+\par
+\par
+\par
+\par
+\par
+        \}\par
+\par
+        \cf2 static\cf0  \cf2 void\cf0  sortList(\cf3 Room\cf0 [] list)\par
+        \{\par
+            \cf2 for\cf0  (\cf2 int\cf0  i = list.Length - 1; i >= 1; i--)\par
+            \{\par
+                \cf3 Room\cf0  currentRoom = list[0];\par
+                \cf2 int\cf0  currentRoomIndex = 0;\par
+\par
+                \cf2 for\cf0  (\cf2 int\cf0  j = 1; j <= i; j++)\par
+                \{\par
+                    \cf2 if\cf0  (currentRoom.getSize() < list[j].getSize())\par
+                    \{\par
+                        currentRoom = list[j];\par
+                        currentRoomIndex = j;\par
+                    \}\par
+                \}\par
+\par
+                \cf2 if\cf0  (currentRoomIndex != i)\par
+                \{\par
+                    list[currentRoomIndex] = list[i];\par
+                    list[i] = currentRoom;\par
+                \}\par
+            \}\par
+        \}\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+    \}\par
+\}\par
+\lang2052\f1\par
+}
+ 

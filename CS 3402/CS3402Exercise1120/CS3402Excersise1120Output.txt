@@ -1,0 +1,14 @@
+Enter the number of elements the randomly-generated map should contain.
+20
+
+
+Key  Value
+0     1
+1     1
+2     5
+4     3
+6     2
+7     5
+8     1
+9     2
+Press any key to continue . . .

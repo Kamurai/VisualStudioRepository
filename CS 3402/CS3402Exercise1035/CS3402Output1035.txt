@@ -1,0 +1,24 @@
+The structure of Tree 0 is:
+           A
+   B               C
+       D       E
+Number of nodes with one child in Tree 0: 2
+
+
+The structure of Tree 1 is:
+                   A
+       B               C
+   D           E               F
+           G               H       I
+Number of nodes with one child in Tree 1: 2
+
+
+The structure of Tree 2 is:
+               A
+           B                   C
+   D                   E           F
+       G           H       I
+Number of nodes with one child in Tree 2: 2
+
+
+Press any key to continue . . .

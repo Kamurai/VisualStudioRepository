@@ -1,0 +1,7 @@
+"Gum Shoes", 39
+"Snug Foot Sandals", 21
+"T-Shirt", 7.75
+"Maine Handbag", 33
+"Maple Syrup", 6.75
+"Flaked Vest", 24
+"Night Shirt", 26

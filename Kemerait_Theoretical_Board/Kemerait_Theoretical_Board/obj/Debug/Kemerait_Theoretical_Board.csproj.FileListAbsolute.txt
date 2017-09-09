@@ -1,0 +1,10 @@
+C:\Documents and Settings\ckemerai\Local Settings\Application Data\Temporary Projects\Kemerait_Theoretical_Board\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ckemerai\Local Settings\Application Data\Temporary Projects\Kemerait_Theoretical_Board\bin\Debug\Kemerait_Theoretical_Board.exe
+C:\Documents and Settings\ckemerai\Local Settings\Application Data\Temporary Projects\Kemerait_Theoretical_Board\bin\Debug\Kemerait_Theoretical_Board.pdb
+C:\Documents and Settings\ckemerai\Local Settings\Application Data\Temporary Projects\Kemerait_Theoretical_Board\obj\Debug\Kemerait_Theoretical_Board.exe
+C:\Documents and Settings\ckemerai\Local Settings\Application Data\Temporary Projects\Kemerait_Theoretical_Board\obj\Debug\Kemerait_Theoretical_Board.pdb
+E:\HTKB\Projects\Programs\Kemerait_Theoretical_Board\Kemerait_Theoretical_Board\obj\Debug\Kemerait_Theoretical_Board.exe
+E:\HTKB\Projects\Programs\Kemerait_Theoretical_Board\Kemerait_Theoretical_Board\obj\Debug\Kemerait_Theoretical_Board.pdb
+E:\HTKB\Projects\Programs\Kemerait_Theoretical_Board\Kemerait_Theoretical_Board\obj\Debug\ResolveAssemblyReference.cache
+E:\HTKB\Projects\Programs\Kemerait_Theoretical_Board\Kemerait_Theoretical_Board\bin\Debug\Kemerait_Theoretical_Board.exe
+E:\HTKB\Projects\Programs\Kemerait_Theoretical_Board\Kemerait_Theoretical_Board\bin\Debug\Kemerait_Theoretical_Board.pdb

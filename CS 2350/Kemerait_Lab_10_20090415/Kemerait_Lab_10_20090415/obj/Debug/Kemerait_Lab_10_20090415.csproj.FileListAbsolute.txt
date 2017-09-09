@@ -1,0 +1,12 @@
+L:\School\Spring 09\C#\Programs\Kemerait_Lab_10_20090415\Kemerait_Lab_10_20090415\obj\Debug\ResolveAssemblyReference.cache
+L:\School\Spring 09\C#\Programs\Kemerait_Lab_10_20090415\Kemerait_Lab_10_20090415\bin\Debug\Kemerait_Lab_10_20090415.exe
+L:\School\Spring 09\C#\Programs\Kemerait_Lab_10_20090415\Kemerait_Lab_10_20090415\bin\Debug\Kemerait_Lab_10_20090415.pdb
+L:\School\Spring 09\C#\Programs\Kemerait_Lab_10_20090415\Kemerait_Lab_10_20090415\obj\Debug\Kemerait_Lab_10_20090415.exe
+L:\School\Spring 09\C#\Programs\Kemerait_Lab_10_20090415\Kemerait_Lab_10_20090415\obj\Debug\Kemerait_Lab_10_20090415.pdb
+E:\School\Spring 09\C#\Programs\Kemerait_Lab_10_20090415\Kemerait_Lab_10_20090415\obj\Debug\Kemerait_Lab_10_20090415.exe
+E:\School\Spring 09\C#\Programs\Kemerait_Lab_10_20090415\Kemerait_Lab_10_20090415\obj\Debug\Kemerait_Lab_10_20090415.pdb
+E:\School\Spring 09\C#\Programs\Kemerait_Lab_10_20090415\Kemerait_Lab_10_20090415\obj\Debug\ResolveAssemblyReference.cache
+E:\School\Spring 09\C#\Programs\Kemerait_Lab_10_20090415\Kemerait_Lab_10_20090415\bin\Debug\Kemerait_Lab_10_20090415.exe
+E:\School\Spring 09\C#\Programs\Kemerait_Lab_10_20090415\Kemerait_Lab_10_20090415\bin\Debug\Kemerait_Lab_10_20090415.pdb
+C:\Users\0148\Programming\CS 2350\Kemerait_Lab_10_20090415\Kemerait_Lab_10_20090415\obj\Debug\Kemerait_Lab_10_20090415.exe
+C:\Users\0148\Programming\CS 2350\Kemerait_Lab_10_20090415\Kemerait_Lab_10_20090415\obj\Debug\Kemerait_Lab_10_20090415.pdb

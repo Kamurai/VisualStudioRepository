@@ -1,0 +1,261 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fprq1\fcharset0 Courier New;}{\f1\fmodern\fprq6\fcharset134 SimSun;}}
+{\colortbl ;\red0\green128\blue0;\red0\green0\blue255;\red43\green145\blue175;\red163\green21\blue21;}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard\f0\fs20\par
+\par
+\par
+\par
+\cf1 //Stephen Kuhn\par
+//Lab# 4\par
+//2-17-09\par
+\par
+\par
+\par
+\cf2 using\cf0  System;\par
+\cf2 using\cf0  System.Collections.Generic;\par
+\cf2 using\cf0  System.Linq;\par
+\cf2 using\cf0  System.Text;\par
+\par
+\cf2 namespace\cf0  Lab_4\par
+\{\par
+    \cf2 class\cf0  \cf3 Program\par
+\cf0     \{\par
+        \cf2 static\cf0  \cf2 void\cf0  Main(\cf2 string\cf0 [] args)\par
+        \{\par
+\par
+            \cf1 //This program will take in as many numbers as a user wants and will find the max\par
+\cf0             \cf1 //And the min\par
+\cf0             \cf3 Console\cf0 .Write(\cf4 "How Many Numbers would you like: "\cf0 );\par
+            \cf2 int\cf0  loopNumber = \cf3 Convert\cf0 .ToInt32(\cf3 Console\cf0 .ReadLine());\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 ""\cf0 );\par
+\par
+            \cf2 double\cf0  max = 0.0;\par
+            \cf2 double\cf0  min = 0.0;\par
+\par
+            \cf1 //This loop allows the user to select how many numbers they would like to evalueate\par
+\cf0             \cf2 for\cf0  (\cf2 int\cf0  i = 0; i < loopNumber; i++)\par
+            \{\par
+\par
+\par
+\par
+                \cf3 Console\cf0 .Write(\cf4 "Please Enter In Number: "\cf0 );\par
+                \cf2 double\cf0  number = \cf3 Convert\cf0 .ToDouble(\cf3 Console\cf0 .ReadLine());\par
+                \cf2 if\cf0  (min == 0.0)\par
+                    min = number;\par
+                \cf2 if\cf0  (number > max)\par
+                    max = number;\par
+                \cf2 if\cf0  (number < min)\par
+                    min = number;\par
+            \}\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 ""\cf0 );\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "Max is :"\cf0  + max);\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "Min is :"\cf0  + min);\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 ""\cf0 );\par
+\par
+\par
+            \cf1 //This progam will find the circumference of a circle\par
+\cf0             \cf3 Console\cf0 .Write(\cf4 "What is the radius of the circle: "\cf0 );\par
+            \cf2 double\cf0  radius = \cf3 Convert\cf0 .ToDouble(\cf3 Console\cf0 .ReadLine());\par
+\par
+            \cf2 double\cf0  Circumference = 2 * \cf3 Math\cf0 .PI * radius;\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 ""\cf0 );\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "The Circumference is : \{0:F3\}"\cf0 , Circumference);\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 ""\cf0 );\par
+\par
+\par
+\par
+            \cf1 //This Progam will calculate the number of coins for a quantity of change\par
+\cf0             \cf3 Console\cf0 .Write(\cf4 "What is the number of cents: "\cf0 );\par
+            \cf2 int\cf0  cents = \cf3 Convert\cf0 .ToInt32(\cf3 Console\cf0 .ReadLine());\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 ""\cf0 );\par
+\par
+            \cf2 int\cf0  quaters = 0;\par
+            \cf2 int\cf0  dimes = 0;\par
+            \cf2 int\cf0  nickels = 0;\par
+            \cf2 int\cf0  pennies = 0;\par
+\par
+\par
+            \cf2 if\cf0  (cents % 25 != 0)\par
+            \{\par
+                quaters = cents / 25;\par
+                \cf2 int\cf0  newValue = cents - (quaters * 25);\par
+                cents = newValue;\par
+            \}\par
+\par
+            \cf2 if\cf0  (cents % 10 != 0)\par
+            \{\par
+                dimes = cents / 10;\par
+                \cf2 int\cf0  newValue = cents - (dimes * 10);\par
+                cents = newValue;\par
+            \}\par
+\par
+            \cf2 if\cf0  (cents % 5 != 0)\par
+            \{\par
+                nickels = cents / 5;\par
+                \cf2 int\cf0  newValue = cents - (nickels * 5);\par
+                cents = newValue;\par
+                pennies = cents;\par
+            \}\par
+\par
+\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "The number of quaters is: "\cf0  + quaters);\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "The number of dimes is: "\cf0  + dimes);\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "The number of nickels is: "\cf0  + nickels);\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "The number of pennies is: "\cf0  + pennies);\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 ""\cf0 );\par
+\par
+\par
+            \cf1 //This program will calculte the area of five rooms, find the two smalles, then \par
+\cf0             \cf1 //Multiply the two groups by two different types of carpet to find the most \par
+\cf0             \cf1 //Economical Usage of supplies\par
+\cf0             \cf3 Console\cf0 .WriteLine(\cf4 "What is the area of the first room :"\cf0 );\par
+            \cf3 Console\cf0 .WriteLine(\cf4 ""\cf0 );\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "Length"\cf0 );\par
+            \cf3 Console\cf0 .Write(\cf4 "Feet: "\cf0 );\par
+            \cf2 double\cf0  feetL1 = \cf3 Convert\cf0 .ToInt32(\cf3 Console\cf0 .ReadLine());\par
+            \cf3 Console\cf0 .Write(\cf4 "Inches: "\cf0 );\par
+            \cf2 double\cf0  inchesL1 = \cf3 Convert\cf0 .ToInt32(\cf3 Console\cf0 .ReadLine());\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 ""\cf0 );\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "Width"\cf0 );\par
+            \cf3 Console\cf0 .Write(\cf4 "Feet: "\cf0 );\par
+            \cf2 double\cf0  feetW1 = \cf3 Convert\cf0 .ToInt32(\cf3 Console\cf0 .ReadLine());\par
+            \cf3 Console\cf0 .Write(\cf4 "Inches: "\cf0 );\par
+            \cf2 double\cf0  inchesW1 = \cf3 Convert\cf0 .ToInt32(\cf3 Console\cf0 .ReadLine());\par
+\par
+            \cf2 double\cf0  room1 = feetL1 + feetW1 + ((inchesL1 + inchesW1) / 12);\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 ""\cf0 );\par
+\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "What is the area of the second room :"\cf0 );\par
+            \cf3 Console\cf0 .WriteLine(\cf4 ""\cf0 );\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "Length"\cf0 );\par
+            \cf3 Console\cf0 .Write(\cf4 "Feet: "\cf0 );\par
+            \cf2 double\cf0  feetL2 = \cf3 Convert\cf0 .ToInt32(\cf3 Console\cf0 .ReadLine());\par
+            \cf3 Console\cf0 .Write(\cf4 "Inches: "\cf0 );\par
+            \cf2 double\cf0  inchesL2 = \cf3 Convert\cf0 .ToInt32(\cf3 Console\cf0 .ReadLine());\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 ""\cf0 );\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "Width"\cf0 );\par
+            \cf3 Console\cf0 .Write(\cf4 "Feet: "\cf0 );\par
+            \cf2 double\cf0  feetW2 = \cf3 Convert\cf0 .ToInt32(\cf3 Console\cf0 .ReadLine());\par
+            \cf3 Console\cf0 .Write(\cf4 "Inches: "\cf0 );\par
+            \cf2 double\cf0  inchesW2 = \cf3 Convert\cf0 .ToInt32(\cf3 Console\cf0 .ReadLine());\par
+\par
+            \cf2 double\cf0  room2 = feetL2 + feetW2 + ((inchesL2 + inchesW2) / 12);\par
+\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 ""\cf0 );\par
+\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "What is the area of the third room :"\cf0 );\par
+            \cf3 Console\cf0 .WriteLine(\cf4 ""\cf0 );\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "Length"\cf0 );\par
+            \cf3 Console\cf0 .Write(\cf4 "Feet: "\cf0 );\par
+            \cf2 double\cf0  feetL3 = \cf3 Convert\cf0 .ToInt32(\cf3 Console\cf0 .ReadLine());\par
+            \cf3 Console\cf0 .Write(\cf4 "Inches: "\cf0 );\par
+            \cf2 double\cf0  inchesL3 = \cf3 Convert\cf0 .ToInt32(\cf3 Console\cf0 .ReadLine());\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 ""\cf0 );\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "Width"\cf0 );\par
+            \cf3 Console\cf0 .Write(\cf4 "Feet: "\cf0 );\par
+            \cf2 double\cf0  feetW3 = \cf3 Convert\cf0 .ToInt32(\cf3 Console\cf0 .ReadLine());\par
+            \cf3 Console\cf0 .Write(\cf4 "Inches: "\cf0 );\par
+            \cf2 double\cf0  inchesW3 = \cf3 Convert\cf0 .ToInt32(\cf3 Console\cf0 .ReadLine());\par
+\par
+            \cf2 double\cf0  room3 = feetL3 + feetW3 + ((inchesL3 + inchesW3) / 12);\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 ""\cf0 );\par
+\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "What is the area of the forth room :"\cf0 );\par
+            \cf3 Console\cf0 .WriteLine(\cf4 ""\cf0 );\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "Length"\cf0 );\par
+            \cf3 Console\cf0 .Write(\cf4 "Feet: "\cf0 );\par
+            \cf2 double\cf0  feetL4 = \cf3 Convert\cf0 .ToInt32(\cf3 Console\cf0 .ReadLine());\par
+            \cf3 Console\cf0 .Write(\cf4 "Inches: "\cf0 );\par
+            \cf2 double\cf0  inchesL4 = \cf3 Convert\cf0 .ToInt32(\cf3 Console\cf0 .ReadLine());\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 ""\cf0 );\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "Width"\cf0 );\par
+            \cf3 Console\cf0 .Write(\cf4 "Feet: "\cf0 );\par
+            \cf2 double\cf0  feetW4 = \cf3 Convert\cf0 .ToInt32(\cf3 Console\cf0 .ReadLine());\par
+            \cf3 Console\cf0 .Write(\cf4 "Inches: "\cf0 );\par
+            \cf2 double\cf0  inchesW4 = \cf3 Convert\cf0 .ToInt32(\cf3 Console\cf0 .ReadLine());\par
+\par
+            \cf2 double\cf0  room4 = feetL4 + feetW4 + ((inchesL4 + inchesW4) / 12);\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 ""\cf0 );\par
+\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "What is the area of the fifth room :"\cf0 );\par
+            \cf3 Console\cf0 .WriteLine(\cf4 ""\cf0 );\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "Length"\cf0 );\par
+            \cf3 Console\cf0 .Write(\cf4 "Feet: "\cf0 );\par
+            \cf2 double\cf0  feetL5 = \cf3 Convert\cf0 .ToInt32(\cf3 Console\cf0 .ReadLine());\par
+            \cf3 Console\cf0 .Write(\cf4 "Inches: "\cf0 );\par
+            \cf2 double\cf0  inchesL5 = \cf3 Convert\cf0 .ToInt32(\cf3 Console\cf0 .ReadLine());\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 ""\cf0 );\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "Width"\cf0 );\par
+            \cf3 Console\cf0 .Write(\cf4 "Feet: "\cf0 );\par
+            \cf2 double\cf0  feetW5 = \cf3 Convert\cf0 .ToInt32(\cf3 Console\cf0 .ReadLine());\par
+            \cf3 Console\cf0 .Write(\cf4 "Inches: "\cf0 );\par
+            \cf2 double\cf0  inchesW5 = \cf3 Convert\cf0 .ToInt32(\cf3 Console\cf0 .ReadLine());\par
+\par
+            \cf2 double\cf0  room5 = feetL5 + feetW5 + ((inchesL5 + inchesW5) / 12);\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 ""\cf0 );\par
+\par
+            \cf2 double\cf0 [] array = \cf2 new\cf0  \cf2 double\cf0 [5];\par
+            array[0] = room1;\par
+            array[1] = room2;\par
+            array[2] = room3;\par
+            array[3] = room4;\par
+            array[4] = room5;\par
+\par
+\par
+            \cf3 Array\cf0 .Sort(array, 0, 5);\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 ""\cf0 );\par
+\par
+            \cf2 double\cf0  smallerRooms = (array[0] + array[1]) * 2;\par
+            \cf2 double\cf0  lagerRooms = (array[2] + array[3] + array[4]) * 2;\par
+\par
+            \cf2 double\cf0  beber = 27.95;\par
+            \cf2 double\cf0  pile = 15.95;\par
+\par
+            \cf2 double\cf0  smallerTotal = smallerRooms * beber;\par
+            \cf2 double\cf0  lagerTotal = lagerRooms * pile;\par
+\par
+            \cf2 double\cf0  grandTotal = smallerTotal + lagerTotal;\par
+\par
+            \cf3 Console\cf0 .WriteLine(\cf4 "The GrandTotal is: \{0:c\}"\cf0 , grandTotal);\par
+\par
+\par
+        \}\par
+    \}\par
+\}\par
+\lang2052\f1\par
+}
+ 

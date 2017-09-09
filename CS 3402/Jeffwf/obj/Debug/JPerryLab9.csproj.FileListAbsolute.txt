@@ -1,0 +1,5 @@
+C:\Users\0148\Programming\CS 3402\Jeffwf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\0148\Programming\CS 3402\Jeffwf\bin\Debug\Jeffwf.exe
+C:\Users\0148\Programming\CS 3402\Jeffwf\bin\Debug\Jeffwf.pdb
+C:\Users\0148\Programming\CS 3402\Jeffwf\obj\Debug\Jeffwf.exe
+C:\Users\0148\Programming\CS 3402\Jeffwf\obj\Debug\Jeffwf.pdb

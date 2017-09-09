@@ -1,0 +1,6 @@
+The structure of Tree 0 is:
+                       S
+           J               X
+       F       K
+   E               L
+Press any key to continue . . .

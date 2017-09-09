@@ -1,0 +1,17 @@
+The initial sets:
+Set A:    1   2   3   6   7   8   9   10
+Set B:    1   2   3   6   7
+Set C:    1   2   3   4   11
+Set D:    0   1   2   3   4
+Set E:    1   2   3   4
+Set F:    3   6   8
+Set G:    8   9   10
+
+
+Set B is a subset of set A.
+Set C is a not subset of set A.
+Set D is a not subset of set A.
+Set E is a not subset of set A.
+Set F is a subset of set A.
+Set G is a subset of set A.
+Press any key to continue . . .

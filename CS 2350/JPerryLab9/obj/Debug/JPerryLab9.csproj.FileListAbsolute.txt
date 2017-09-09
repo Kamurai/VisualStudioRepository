@@ -1,0 +1,5 @@
+C:\Users\0148\Programming\CS 2350\JPerryLab9\bin\Debug\JPerryLab9.exe
+C:\Users\0148\Programming\CS 2350\JPerryLab9\bin\Debug\JPerryLab9.pdb
+C:\Users\0148\Programming\CS 2350\JPerryLab9\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\0148\Programming\CS 2350\JPerryLab9\obj\Debug\JPerryLab9.exe
+C:\Users\0148\Programming\CS 2350\JPerryLab9\obj\Debug\JPerryLab9.pdb

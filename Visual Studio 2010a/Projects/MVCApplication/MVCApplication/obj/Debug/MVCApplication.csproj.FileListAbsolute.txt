@@ -1,0 +1,7 @@
+c:\users\ckemerait\documents\visual studio 2010\Projects\MVCApplication\MVCApplication\bin\MVCApplication.dll
+c:\users\ckemerait\documents\visual studio 2010\Projects\MVCApplication\MVCApplication\bin\MVCApplication.pdb
+c:\users\ckemerait\documents\visual studio 2010\Projects\MVCApplication\MVCApplication\bin\EntityFramework.dll
+c:\users\ckemerait\documents\visual studio 2010\Projects\MVCApplication\MVCApplication\bin\EntityFramework.xml
+c:\users\ckemerait\documents\visual studio 2010\Projects\MVCApplication\MVCApplication\obj\Debug\MVCApplication.csprojResolveAssemblyReference.cache
+c:\users\ckemerait\documents\visual studio 2010\Projects\MVCApplication\MVCApplication\obj\Debug\MVCApplication.dll
+c:\users\ckemerait\documents\visual studio 2010\Projects\MVCApplication\MVCApplication\obj\Debug\MVCApplication.pdb

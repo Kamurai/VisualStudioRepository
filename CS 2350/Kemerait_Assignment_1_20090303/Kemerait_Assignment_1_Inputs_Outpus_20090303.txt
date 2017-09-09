@@ -1,0 +1,47 @@
+Kemerait, Christopher
+CS 2350, Spring 2009
+20090303
+Assignment 1
+Inputs and Outputs
+
+Please enter each solution through the menu and input shown below.
+
+
+
+Solution 1:
+
+	Input: bah bah black sheep
+
+	Output:
+		Word 1: bah		Occurs: 2.
+		Word 3: black		Occurs: 1.
+		Word 4: sheep		Occurs:	1.
+
+
+Solution 2:
+
+	Input: I wanna go to candyland
+
+	Output:
+		Word 1: I			Contains: 1 letters.
+		Word 2: wanna			Contains: 5 letters.
+		Word 3: go			Contains: 2 letters.
+		Word 4: to			Contains: 2 letters.
+		Word 5: candyland			Contains: 9 letters.
+
+		The shortest word from above is:
+
+		Word 1: I			Containing: 1 letters.
+
+		The longest word from above is:
+
+		Word 5: candyland		Containing: 9 letters.
+
+
+Solution 3:
+
+	Input: one two three four five
+
+	Output:
+		five four three two one
+

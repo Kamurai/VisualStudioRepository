@@ -1,0 +1,3 @@
+"Ohio State", 48357, 3518
+"Univ. of MD, College Park", 31471, 1849
+"Princeton", 6340, 890

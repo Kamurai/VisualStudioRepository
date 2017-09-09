@@ -1,0 +1,5 @@
+E:\School\Spring 09\C#\Programs\Kemerait_Test_1_20090219\Kemerait_Test_1_20090219\obj\Debug\ResolveAssemblyReference.cache
+E:\School\Spring 09\C#\Programs\Kemerait_Test_1_20090219\Kemerait_Test_1_20090219\bin\Debug\Kemerait_Test_1_20090219.exe
+E:\School\Spring 09\C#\Programs\Kemerait_Test_1_20090219\Kemerait_Test_1_20090219\bin\Debug\Kemerait_Test_1_20090219.pdb
+E:\School\Spring 09\C#\Programs\Kemerait_Test_1_20090219\Kemerait_Test_1_20090219\obj\Debug\Kemerait_Test_1_20090219.exe
+E:\School\Spring 09\C#\Programs\Kemerait_Test_1_20090219\Kemerait_Test_1_20090219\obj\Debug\Kemerait_Test_1_20090219.pdb
