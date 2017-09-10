@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>HTKB: @Page.Title</title>
+        @RenderSection("head", required: false)
+        <link href="@Href("~/Styles/Section1/moo.css")" rel="stylesheet" type="text/css"/>
+		<link rel="icon" href="@Href("~/favicon.ico")" type="image/ico">
+    </head>
+
+    <body bgcolor="#000000" link="#C0C0C0" vlink="#808080" alink="#FF0000">
+    <font color="white">
+
+    <!--Overall body-->
+	    <!--Centered division.-->
+	    <div align="center">
+		    <!--Table to place all subsections-->
+		    <table width="100%" cellpadding="0px" cellspacing="0px" border="0" align="center">
+			    <tbody>
+				    <!--Top Row-->
+				    <tr>
+					    <!--Center Sub Section-->
+					    <td class="td-header" colspan="3" alt="" valign="top">
+						    <p align="center">
+							    <!--Primary Header: Main Splash / Logo-->
+                                <p align="center">
+			                        <!--Primary Header: Main Splash / Logo-->
+                                    <img src="../../Pictures/logo_HouseThatKamuraiBuilt_blueonblack.jpg"  width="100%" alt="" border="0" align="center" vspace="0" hspace="0"/><br>
+		                        </p>
+						    </p>
+					    </td>
+				    </tr>
+				    <!--2nd Row-->
+				    <tr>
+					    <!--NavBar-->
+					    <td class="td-navbar" colspan="3" alt="">
+						    <div>
+							    <ul id="list-nav">
+								    <li>
+									    <a href="../../index.cshtml">Home</a>
+									    <a href="../../Section1/index.cshtml">Web Programming</a>
+									    <a href="../../Section2/index.cshtml">Private Projects</a>
+									    <a href="../../Section3/index.cshtml">Downloadable Projects</a>
+								    </li>
+							    </ul>
+					       </div>
+					    </td>
+				    </tr>				
+				    <!--3rd Row-->
+				    <tr>
+					    <!--Left Sub Section-->
+					    <td class="td-left" valign="top">
+						    <div align="center">
+							    <div class="left-box">
+								    <div class="navlinks">
+									    <h4>
+										    Navigation
+									    </h4>
+									    <span class="navlink">
+										    <a href="http://htkb.dyndns.org/Section1/Project1.html">Basic HTML</a>
+									    </span>
+									    </br>
+									    <span class="navlink">
+										    <a href="http://htkb.dyndns.org/Section1/Project1.php">PHP</a>
+									    </span>
+									    </br>
+									    <span class="navlink">
+										    <a href="../Section2/Index.cshtml">Javascript</a>
+									         <h5>
+											    <span class="navlink">
+												    <a href="http://htkb.dyndns.org/Javascript/Section1/Section2/Project1.html">HTML Javascript</a>
+											    </span>
+											    <span class="navlink">
+												    <a href="http://htkb.dyndns.org:81/ASP/Section1/Section2/Project2.asp">ASP Javascript</a>
+											    </span>
+											    <span class="navlink">
+												    <a href="http://htkb.dyndns.org:81/ASPNET/Section1/Section2/Project3.aspx">ASP.NET Javascript</a>
+											    </span>
+										    </h5>
+									    </span>
+									    </br>
+									    <span class="navlink">
+										    <a href="http://htkb.dyndns.org/Section1/Project3.shtml">Perl</a>
+									    </span>
+									    </br>
+									    <span class="navlink">
+										    <a href="../Project4.cshtml">XHTML</a>
+									    </span>
+									    </br>
+									    <span class="navlink">
+										    <a href="../Section5/Index.cshtml">ASP.NET</a>
+									    </span>
+									    </br>
+									    <span class="navlink">
+										    <a href="../Section6/Index.cshtml">Databases</a>
+                                       </span>
+									    </br>
+								    </div>
+							    </div>
+						    </div>
+					    </td>
+					    <!--Center Sub Section-->
+					    <td class="td-content">
+						    <div align="center">
+							    <div class="content-box">
+                                    <div>
+                                        <h2>
+                                            @Page.Title
+                                        </h2>
+                                    </div>
+								    <div>
+									    @RenderBody()
+								    </div>
+								    <br>
+								    <br>
+							    </div>
+						    </div>
+					    </td>
+					    <!--Right Sub Section-->
+					    <td class="td-right" valign="top">
+						    <div align="center">
+							    <div class="right-box">
+								    <h4>
+									    Information
+								    </h4>
+							    </div>
+						    </div>
+					    </td>
+				    </tr>
+				    <!--4th Row-->
+				    <tr>
+					    <!--Center Sub Section-->
+					    <td class="td-footer" colspan="3">
+						    <div align="center">
+							    <div class="footer-box">
+								    <p align="center">
+									    © Copyright 2012 All rights reserved<br>
+									    House That Kamurai Built<br>
+								    </p>
+								    <p align="left">
+									    <font size="1">
+									    Website managed by Kamurai.
+									    </font>
+								    </p>
+							    </div>
+						    </div>
+					    </td>
+				    </tr>
+			    </tbody>
+		    </table>
+	    </div>
+    </body>

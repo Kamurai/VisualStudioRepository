@@ -1,0 +1,202 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Template.master.cs" Inherits="Template2_6_2_2Master" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Section2/moo.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="~/favicon.ico" type="image/ico">
+	<asp:ContentPlaceHolder ID="HeadContent" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <!--Centered division.-->
+	<div align="center">
+		<!--Table to place all subsections-->
+		<table width="100%" cellpadding="0px" cellspacing="0px" border="0" align="center">
+			<tbody>
+				<!--Top Row-->
+				<tr>
+					<!--Center Sub Section-->
+					<td class="td-header" colspan="3" alt="" valign="top">
+						<p align="center">
+							<!--Primary Header: Main Splash / Logo-->
+							<img src="../../../../Pictures/logo_HouseThatKamuraiBuilt_blueonblack.jpg" width="100%" alt="" border="0" align="center" vspace="0" hspace="0"><br>
+						</p>
+					</td>
+				</tr>
+				<!--2nd Row-->
+				<tr>
+					<!--NavBar-->
+					<td class="td-navbar" colspan="3" alt="">
+						<div>
+							<ul id="list-nav">
+								<li>
+									<a href="../../../../Index.aspx">Home</a>
+									<a href="../../../../Section1/Index.aspx">Web Programming</a>
+									<a href="../../../../Section2/Index.aspx">Private Projects</a>
+									<a href="../../../http://htkb.dyndns.org/Section3/Index.aspx">Downloadable Projects</a>
+								</li>
+							</ul>
+					   </div>
+					</td>
+				</tr>				
+				<!--3rd Row-->
+				<tr>
+					<!--Left Sub Section-->
+					<td class="td-left" valign="top">
+						<div align="center">
+							<div class="left-box">
+								<div class="navlinks">
+									<h4>
+										Navigation
+									</h4>
+									<span class="navlink">
+										<a href="../../../Section1/index.aspx">Gynowars</a>
+									</span>
+									</br>
+									<span class="navlink">
+										<a href="../../../Project2.aspx">Assault</a>
+									</span>
+									</br>
+									<span class="navlink">
+										<a href="../../../Project3.aspx">Mars</a>
+									</span>
+									</br>
+									<span class="navlink">
+										<a href="../../../Section4/index.aspx">Renley</a>
+									</span>
+									</br>
+									<span class="navlink">
+										<a href="../../../Section5/index.aspx">Antarrea</a>
+									</span>
+									</br>
+									<span class="navlink">
+										<a href="../../../Section6/index.aspx">Editations</a>
+                                        <h5>
+											<span class="navlink">
+												<a href="../../Project1.aspx">Magic: The Tactical</a>
+											</span>
+											<span class="navlink">
+												<a href="../../Section2/index.aspx">Warhammer 40K</a>
+                                                <h5>
+													<span class="navlink">
+														<a href="../Project1.aspx">Mission!</a>
+													</span>
+													<span class="navlink">
+														<a href="../Section2/index.aspx">HTKB Armies</a>
+                                                        <h5>
+															<span class="navsublink">
+																<a href="./Project1.aspx">Ad Infinitum</a>
+															</span>
+															<span class="navsublink">
+																<a href="./Project2.aspx">Avia</a>
+															</span>
+															<span class="navsublink">
+																<a href="./Project3.aspx">De Luna</a>
+															</span>
+															<span class="navsublink">
+																<a href="./Project4.aspx">Eve</a>
+															</span>
+															<span class="navsublink">
+																<a href="./Project5.aspx">Geo Marines</a>
+															</span>
+															<span class="navsublink">
+																<a href="./Project6.aspx">Twin Fists</a>
+															</span>
+															<span class="navsublink">
+																<a href="./Project7.aspx">Voboulids</a>
+															</span>
+															<span class="navsublink">
+																<a href="./Project8.aspx">Fungi</a>
+															</span>
+															<span class="navsublink">
+																<a href="./Project9.aspx">Synergy</a>
+															</span>
+															<span class="navsublink">
+																<a href="./Project10.aspx">The Dark</a>
+															</span>
+															<span class="navsublink">
+																<a href="./Project11.aspx">Vivus Mortem</a>
+															</span>
+														</h5>
+													</span>
+												</h5>
+											</span>
+										</h5>
+									</span>
+									</br>
+									<span class="navlink">
+										<a href="../../../Project7.aspx">Truth</a>
+									</span>
+									</br>
+									<span class="navlink">
+										<a href="../../../Project8.aspx">Kingdoms</a>
+									</span>
+									</br>
+									<span class="navlink">
+										<a href="../../../Project9.aspx">Terminal World</a>
+									</span>
+									</br>
+									<span class="navlink">
+										<a href="../../../Project10.aspx">Monster Office Workplace</a>
+									</span>
+									</br>
+									<span class="navlink">
+										<a href="../../../Project11.aspx">Battle Princesses</a>
+									</span>
+									</br>
+								</div>
+							</div>
+						</div>
+					</td>
+					<!--Center Sub Section-->
+					<td class="td-content">
+						<div align="center">
+							<div class="content-box">
+								<div>
+									<asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+								</div>
+								<br>
+								<br>
+							</div>
+						</div>
+					</td>
+					<!--Right Sub Section-->
+					<td class="td-right" valign="top">
+						<div align="center">
+							<div class="right-box">
+								<h4>
+									Information
+								</h4>
+							</div>
+						</div>
+					</td>
+				</tr>
+				<!--4th Row-->
+				<tr>
+					<!--Center Sub Section-->
+					<td class="td-footer" colspan="3">
+						<div align="center">
+							<div class="footer-box">
+								<p align="center">
+								<a href="http://htkb.dyndns.org/Section2/Downloads/GDR.zip">You can download my Games Development Report here.</a></br>
+								<a href="http://htkb.dyndns.org/Section3/Downloads/wrar371.exe">You may need WinRar to open zip files from this site.</a></br>
+									© Copyright 2012 All rights reserved<br>
+									House That Kamurai Built<br>
+								</p>
+								<p align="left">
+									<font size="1">
+									Website managed by Kamurai.
+									</font>
+								</p>
+							</div>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,5 @@
+C:\Users\ckemerait\Documents\Visual Studio 2005\Projects\JavaScriptApplication\JavaScriptApplication\bin\JavaScriptApplication.dll
+C:\Users\ckemerait\Documents\Visual Studio 2005\Projects\JavaScriptApplication\JavaScriptApplication\bin\JavaScriptApplication.pdb
+C:\Users\ckemerait\Documents\Visual Studio 2005\Projects\JavaScriptApplication\JavaScriptApplication\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ckemerait\Documents\Visual Studio 2005\Projects\JavaScriptApplication\JavaScriptApplication\obj\Debug\JavaScriptApplication.dll
+C:\Users\ckemerait\Documents\Visual Studio 2005\Projects\JavaScriptApplication\JavaScriptApplication\obj\Debug\JavaScriptApplication.pdb

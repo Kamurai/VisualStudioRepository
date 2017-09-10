@@ -1,0 +1,5 @@
+c:\users\ckemerait\documents\visual studio 2010\Projects\JScriptApplication\JScriptApplication\bin\JScriptApplication.dll
+c:\users\ckemerait\documents\visual studio 2010\Projects\JScriptApplication\JScriptApplication\bin\JScriptApplication.pdb
+c:\users\ckemerait\documents\visual studio 2010\Projects\JScriptApplication\JScriptApplication\obj\Debug\JScriptApplication.dll
+c:\users\ckemerait\documents\visual studio 2010\Projects\JScriptApplication\JScriptApplication\obj\Debug\JScriptApplication.pdb
+C:\Users\ckemerait\documents\visual studio 2010\Projects\JScriptApplication\JScriptApplication\obj\Debug\JScriptApplication.csprojResolveAssemblyReference.cache

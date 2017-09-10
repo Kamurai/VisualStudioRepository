@@ -1,0 +1,221 @@
+/* 
+    Document   : moo
+    Created on : Nov 24, 2010, 2:32:30 PM
+    Author     : Kamurai
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+ul#list-nav {
+list-style:none;
+margin-right:50px;
+margin:0px;
+padding-left:15px;
+background:#000000;
+}
+
+ul#list-nav li {
+display:inline;
+list-style-type: none;
+}
+
+ul#list-nav li a {
+text-decoration:none;
+width:100%;
+background:#000000;
+color:#00F;
+/*float:left;*/
+text-align:center;
+border-left:1px solid #AAA;
+border-right:1px solid #AAA;
+border-top:1px solid #AAA;
+border-bottom:1px solid #AAA;
+}
+
+ul#list-nav li a:hover {
+background:#000000;
+color:#0B0;
+}
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	background-color: #AAA;
+	line-height: 25px;
+}
+
+.td-header {
+	width: 100%;
+	background-color: #000;
+	color: #000;
+}
+
+.td-navbar 
+{
+	width: 100%;
+	background-color: #AAA;
+}
+
+.td-left {
+	width: 10%;
+	background-color: #000;
+	padding: 5px;
+}
+
+.td-content {
+	vertical-align:text-top;
+	width: auto;
+	background-color: #000;
+	padding: 5px;
+}
+
+.td-right {
+	width: 10%;
+	background-color: #000;
+	padding: 5px;
+}
+
+.td-footer {
+	background-color: #000;
+	color: #AAA;
+}
+
+div.left-box {
+	padding: 5px;
+}
+
+div.content-box {
+	padding: 10px;
+	color: #AAA;
+}
+
+div.right-box {
+	padding: 10px;
+}
+
+div.footer-box {
+	padding: 5px;
+	color: #AAA;
+}
+
+h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 175%;
+	color: #00F;
+}
+
+h2 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 150%;
+	color: #00F;
+}
+
+h3 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 130%;
+	color: #00F;
+	text-align: center;
+}
+
+h4 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 120%;
+	color: #BBB;
+	text-align: center;
+	background-color: #003399;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+}
+
+h5{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 80%;
+	color: #00F;
+	text-align: left;
+	padding-left: 15px;
+}
+
+h6{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 70%;
+	color: #00F;
+	text-align: left;
+	padding-left: 20px;
+}
+
+a.ivlink {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #00F;
+	text-decoration: none;
+}
+
+a.ivlink:hover {
+	color: #F00;
+}
+
+a {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #0000FF;
+}
+
+a:hover {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #00AA00;
+}
+
+.navlinks {
+	background-color: transparent;
+	border: transparent;
+	width: auto;
+	padding: 2px;
+	text-align: left;
+}
+
+.navlink {
+font-weight: bold;
+}
+
+.navlink a {
+	padding: 0px;
+	text-decoration: underline;
+	display: block;
+	color: #00F;
+	background-color: transparent;
+	border: transparent;
+	margin: 0px;
+}
+
+.navlink a:hover {
+	color: #0A0;
+	background-color: transparent;
+}
+
+.navsublink {
+font-weight: bold;
+}
+
+.navsublink a {
+	padding: 0px;
+	text-decoration: underline;
+	display: block;
+	color: #00F;
+	background-color: transparent;
+	border: transparent;
+	margin: 0px;
+}
+
+.navsublink a:hover {
+	color: #0A0;
+	background-color: transparent;
+}
