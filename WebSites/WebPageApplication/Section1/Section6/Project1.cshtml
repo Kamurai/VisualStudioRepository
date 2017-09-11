@@ -1,0 +1,43 @@
+﻿@{
+    Layout = "~/Layouts/Section1/Section6/_Layout.cshtml";
+    Page.Title = "Oracle Programming";
+
+    Page.Versions = "<a href=\"http://htkb.dyndns.org/Section1/Section6/Project1.html\">HTML</a><br>";
+    Page.Versions += "<a href=\"http://htkb.dyndns.org/Section1/Section6/Project1.php\">PHP</a><br>";
+    Page.Versions += "<a href=\"http://htkb.dyndns.org/Javascript/Section1/Section6/Project1.html\">HTML Javascript</a><br>";
+    Page.Versions += "<a href=\"http://htkb.dyndns.org:81/ASP/Section1/Section6/Project1.asp\">ASP Javascript</a><br>";
+    Page.Versions += "<a href=\"http://htkb.dyndns.org:81/ASPNET/Section1/Section6/Project1.aspx\">ASP.NET Javascript</a><br>";
+    Page.Versions += "<a href=\"http://htkb.dyndns.org/Section1/Section6/Project1.shtml\">Perl</a><br>";
+    Page.Versions += "<a href=\"http://htkb.dyndns.org:8080/JSPApplication/Section1/Section6/Project1.jsp\">JSP</a><br>";
+    Page.Versions += "<a href=\"http://htkb.dyndns.org:8080/JSFApplication/Section1/Section6/Project1.xhtml\">JSF</a><br>";
+    Page.Versions += "<a href=\"http://htkb.dyndns.org:81/WebForm/Section1/Section6/Project1.aspx\">ASP.NET Webform</a><br>";
+    Page.Versions += "<a href=\"http://htkb.dyndns.org:81/MVC/Section1/Section6/Project1\">ASP.NET MVC App</a><br>";
+    Page.Versions += "<a href=\"http://htkb.dyndns.org/SSI/Section1/Section6/Project1.html\">Apache SSI</a><br>";
+
+    var db = Database.Open("OracleConnectionString");
+    var selectQueryString = "SELECT * FROM Test";
+}
+
+<p align="left">
+	This section is dedicated to Oracle programming.
+</p>
+
+<table> 
+    <tr>
+        <td>
+            Oracle Instance  
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>Index</th> 
+        <th>Color</th> 
+    </tr>
+    @foreach(var row in db.Query(selectQueryString))
+    {
+        <tr> 
+            <td>@row.indext</td> 
+            <td>@row.Color</td> 
+        </tr> 
+    }
+</table>

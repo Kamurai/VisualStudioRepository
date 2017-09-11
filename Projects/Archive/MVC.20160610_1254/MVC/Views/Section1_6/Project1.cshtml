@@ -1,0 +1,34 @@
+﻿@model MVC.Models.OracleConnectionString
+@{
+    ViewBag.Title = "Oracle Programming";
+    Layout = "~/Views/Shared/Section1/Section6/_Section1_6Layout.cshtml";
+}
+
+<h2>@ViewBag.Message</h2>
+
+<h1>
+	<u>Oracle Programming</u>
+</h1>
+<p align="left">
+	This section is dedicated to Oracle programming.
+</p>
+
+<table>
+    <tr>
+        <td>
+            Oracle Instance
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>Index</th>
+        <th>Color</th>
+    </tr>
+    @foreach (var test in Model.Colors)
+    {
+        <tr>
+            <td>@test.Indext</td>
+            <td>@test.Color</td>
+        </tr>
+    }
+</table>

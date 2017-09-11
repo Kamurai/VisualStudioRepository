@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Template.master.cs" Inherits="Template1_2Master" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <link href="~/Styles/Section1/Section1.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body id="idBody">
+<font color="white">
+    <table id="idTableMain">
+        <tr id="idHeaderRow">
+            <td id="idHeaderRowCenter" colspan="3">
+                <img id="idLogo" src="../../Pictures/logo_HouseThatKamuraiBuilt_blueonblack.jpg"><br>
+			</td>
+        </tr>
+        <tr id="idNavigationRow">
+            <td id="idNavigationBar" colspan="3">
+                <a class="navBar" href="../../Index.aspx">Home</a>
+			    <a class="navBar" href="../../Section1/Index.aspx">Web Programming</a>
+			    <a class="navBar" href="../../Section2/Index.aspx">Private Projects</a>
+			    <a class="navBar" href="../../Section3/Index.aspx">Downloadable Projects</a>
+		    </td>
+		</tr>				
+		<tr id="idCenterRow">
+            <td id="idCenterRowLeft">
+                <h4>
+                    Navigation
+                </h4>
+  			    <a  class="navlinkA" href="http://htkb.dyndns.org/Section1/Project1.html">HTML</a><br /><br />
+				<a  class="navlinkA" href="http://htkb.dyndns.org/Section1/Project1.php">PHP</a><br /><br />
+				<a  class="navlinkA" href="../Section2/Index.aspx">Javascript</a><br /><br />
+				    <a  class="navlinkB" href='http://htkb.dyndns.org/Javascript/Section1/Section2/Project1.html'>HTML Javascript</a><br /><br />
+				    <a  class="navlinkB" href='http://htkb.dyndns.org:81/ASP/Section1/Section2/Project2.asp'>ASP Javascript</a><br /><br />
+				    <a  class="navlinkB" href='http://htkb.dyndns.org:81/ASPNET/Section1/Section2/Project3.aspx'>ASP.NET Javascript</a><br /><br />
+				<a  class="navlinkA" href="../Project3.aspx">Perl</a><br /><br />
+				<a  class="navlinkA" href="../Section4/Index.aspx">Java</a><br /><br />
+				<a  class="navlinkA" href="../Project5.aspx">ASP.Net</a><br /><br />
+			    <a  class="navlinkA" href="../Section6/index.aspx">Databases</a><br /><br />
+				<a  class="navlinkA" href="http://htkb.dyndns.org/SSI/Section1/index.html">Apache SSI</a><br /><br />
+	        </td>
+			<td id="idCenterRowMain">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+			</td>
+			<td id="idCenterRowRight">
+            	<h4>
+					Information
+				</h4>
+				This is written with ASP.NET as a Web Form Application.<br /><br />
+                Other versions of this web page can be found here:<br />
+                <asp:ContentPlaceHolder ID="VersionContent" runat="server"/>
+			</td>
+		</tr>
+		<tr id="idFooterRow">
+            <td id="idFooterMain" colspan="3">
+                <p id="idFooterContent">
+                    © Copyright 2012 All rights reserved<br>
+                    House That Kamurai Built<br>
+                </p>
+                <p id="idFooterManagement">
+                    Website managed by Kamurai.
+                </p>
+            </td>
+        </tr>
+    </table>
+</font>
+</body>
+</html>

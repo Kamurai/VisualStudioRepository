@@ -1,0 +1,8 @@
+c:\users\kamurai\documents\visual studio 2013\Projects\TreeParentNodeFinder\TreeParentNodeFinder\bin\Debug\TreeParentNodeFinder.exe.config
+c:\users\kamurai\documents\visual studio 2013\Projects\TreeParentNodeFinder\TreeParentNodeFinder\bin\Debug\TreeParentNodeFinder.exe
+c:\users\kamurai\documents\visual studio 2013\Projects\TreeParentNodeFinder\TreeParentNodeFinder\bin\Debug\TreeParentNodeFinder.pdb
+c:\users\kamurai\documents\visual studio 2013\Projects\TreeParentNodeFinder\TreeParentNodeFinder\obj\Debug\TreeParentNodeFinder.csprojResolveAssemblyReference.cache
+c:\users\kamurai\documents\visual studio 2013\Projects\TreeParentNodeFinder\TreeParentNodeFinder\obj\Debug\TreeParentNodeFinder.Properties.Resources.resources
+c:\users\kamurai\documents\visual studio 2013\Projects\TreeParentNodeFinder\TreeParentNodeFinder\obj\Debug\TreeParentNodeFinder.csproj.GenerateResource.Cache
+c:\users\kamurai\documents\visual studio 2013\Projects\TreeParentNodeFinder\TreeParentNodeFinder\obj\Debug\TreeParentNodeFinder.exe
+c:\users\kamurai\documents\visual studio 2013\Projects\TreeParentNodeFinder\TreeParentNodeFinder\obj\Debug\TreeParentNodeFinder.pdb

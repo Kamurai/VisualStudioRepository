@@ -1,0 +1,59 @@
+﻿@model MVC.Models.SQLServerConnectionString
+@{
+    //@model IEnumerable<MVC.Models.Color>
+
+    ViewBag.Title = "SQL Server Programming";
+    Layout = "~/Views/Shared/Section1/Section6/_Section1_6Layout.cshtml";
+    
+    
+    //var db1 = SQLServerController("Index");
+    //Database.Open("SQLServerConnectionString");
+   // var selectQueryString1 = "SELECT * FROM Test";
+
+    //var db2 = Database.Open("SQLServerExpressConnectionString");
+    //var selectQueryString2 = "SELECT * FROM Test";
+}
+
+<h2>@ViewBag.Message</h2>
+
+<h1>
+	<u>SQL Server Programming</u>
+</h1>
+<p align="left">
+	This section is dedicated to SQL Server programming.
+</p>
+
+<table>
+    <tr>
+        <td>
+            SQL Server Instance
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>Index</th>
+        <th>Color</th>
+    </tr>
+    @foreach (var test in Model.Colors)
+    {
+        <tr>
+            <td>@test.Indext</td>
+            <td>@test.Color</td>
+        </tr>
+    }    
+</table>
+<br />
+<br />
+<table>
+    <tr>
+        <td>
+            SQL Server Express Instance
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>Index</th>
+        <th>Color</th>
+    </tr>
+   
+</table> 
