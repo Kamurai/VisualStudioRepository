@@ -6,3 +6,6 @@ c:\users\kamurai\documents\visual studio 2013\Projects\TreeParentNodeFinder\Tree
 c:\users\kamurai\documents\visual studio 2013\Projects\TreeParentNodeFinder\TreeParentNodeFinder\obj\Debug\TreeParentNodeFinder.csproj.GenerateResource.Cache
 c:\users\kamurai\documents\visual studio 2013\Projects\TreeParentNodeFinder\TreeParentNodeFinder\obj\Debug\TreeParentNodeFinder.exe
 c:\users\kamurai\documents\visual studio 2013\Projects\TreeParentNodeFinder\TreeParentNodeFinder\obj\Debug\TreeParentNodeFinder.pdb
+C:\House\Programming\VisualStudio\VisualStudioRepository\Projects\TreeParentNodeFinder\TreeParentNodeFinder\bin\Debug\TreeParentNodeFinder.exe.config
+C:\House\Programming\VisualStudio\VisualStudioRepository\Projects\TreeParentNodeFinder\TreeParentNodeFinder\obj\Debug\TreeParentNodeFinder.exe
+C:\House\Programming\VisualStudio\VisualStudioRepository\Projects\TreeParentNodeFinder\TreeParentNodeFinder\obj\Debug\TreeParentNodeFinder.pdb

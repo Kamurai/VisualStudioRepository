@@ -1,0 +1,19 @@
+Add players to enivronment
+
+Add characters to list
+Add characters to players
+
+add board to environment
+
+add players to board
+add characters to board
+
+
+
+choose a character
+
+move that character
+
+repetition
+
+check for reset

@@ -25,3 +25,5 @@ F:\House526\Programming\Visual Studio\Kemerait_Chess_Board\Kemerait_Chess_Board\
 F:\House526\Programming\Visual Studio\Kemerait_Chess_Board\Kemerait_Chess_Board\bin\Debug\Kemerait_Chess_Board.exe
 F:\House526\Programming\Visual Studio\Kemerait_Chess_Board\Kemerait_Chess_Board\bin\Debug\Kemerait_Chess_Board.pdb
 F:\House526\Programming\Visual Studio\Kemerait_Chess_Board\Kemerait_Chess_Board\obj\Debug\Kemerait_Chess_Board.csprojResolveAssemblyReference.cache
+C:\House\Programming\VisualStudio\VisualStudioRepository\_Processing\Kemerait_Chess_Board\Kemerait_Chess_Board\obj\Debug\Kemerait_Chess_Board.exe
+C:\House\Programming\VisualStudio\VisualStudioRepository\_Processing\Kemerait_Chess_Board\Kemerait_Chess_Board\obj\Debug\Kemerait_Chess_Board.pdb

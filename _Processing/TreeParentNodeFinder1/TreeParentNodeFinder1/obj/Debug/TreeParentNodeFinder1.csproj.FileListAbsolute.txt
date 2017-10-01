@@ -8,3 +8,6 @@ c:\users\kamurai\documents\visual studio 2013\Projects\TreeParentNodeFinder1\Tre
 c:\users\kamurai\documents\visual studio 2013\Projects\TreeParentNodeFinder1\TreeParentNodeFinder1\bin\Debug\TreeParentNodeFinder1.application
 c:\users\kamurai\documents\visual studio 2013\Projects\TreeParentNodeFinder1\TreeParentNodeFinder1\obj\Debug\TreeParentNodeFinder1.exe.manifest
 c:\users\kamurai\documents\visual studio 2013\Projects\TreeParentNodeFinder1\TreeParentNodeFinder1\obj\Debug\TreeParentNodeFinder1.application
+C:\House\Programming\VisualStudio\VisualStudioRepository\_Processing\TreeParentNodeFinder1\TreeParentNodeFinder1\bin\Debug\TreeParentNodeFinder1.exe.config
+C:\House\Programming\VisualStudio\VisualStudioRepository\_Processing\TreeParentNodeFinder1\TreeParentNodeFinder1\obj\Debug\TreeParentNodeFinder1.exe
+C:\House\Programming\VisualStudio\VisualStudioRepository\_Processing\TreeParentNodeFinder1\TreeParentNodeFinder1\obj\Debug\TreeParentNodeFinder1.pdb

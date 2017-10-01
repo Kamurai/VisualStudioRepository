@@ -8,3 +8,5 @@ E:\HTKB\Projects\Programs\Kemerait_Theoretical_Board\Kemerait_Theoretical_Board\
 E:\HTKB\Projects\Programs\Kemerait_Theoretical_Board\Kemerait_Theoretical_Board\obj\Debug\ResolveAssemblyReference.cache
 E:\HTKB\Projects\Programs\Kemerait_Theoretical_Board\Kemerait_Theoretical_Board\bin\Debug\Kemerait_Theoretical_Board.exe
 E:\HTKB\Projects\Programs\Kemerait_Theoretical_Board\Kemerait_Theoretical_Board\bin\Debug\Kemerait_Theoretical_Board.pdb
+C:\House\Programming\VisualStudio\VisualStudioRepository\_Processing\Kemerait_Theoretical_Board\Kemerait_Theoretical_Board\obj\Debug\Kemerait_Theoretical_Board.exe
+C:\House\Programming\VisualStudio\VisualStudioRepository\_Processing\Kemerait_Theoretical_Board\Kemerait_Theoretical_Board\obj\Debug\Kemerait_Theoretical_Board.pdb

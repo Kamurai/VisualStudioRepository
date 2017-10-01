@@ -1,0 +1,24 @@
+C:\Documents and Settings\ckemerai\Local Settings\Application Data\Temporary Projects\Kemerait_Chess_Board\bin\Debug\Kemerait_Chess_Board.exe
+C:\Documents and Settings\ckemerai\Local Settings\Application Data\Temporary Projects\Kemerait_Chess_Board\bin\Debug\Kemerait_Chess_Board.pdb
+C:\Documents and Settings\ckemerai\Local Settings\Application Data\Temporary Projects\Kemerait_Chess_Board\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ckemerai\Local Settings\Application Data\Temporary Projects\Kemerait_Chess_Board\obj\Debug\Kemerait_Chess_Board.exe
+C:\Documents and Settings\ckemerai\Local Settings\Application Data\Temporary Projects\Kemerait_Chess_Board\obj\Debug\Kemerait_Chess_Board.pdb
+E:\HTKB\Projects\Programs\Kemerait_Chess_Board\Kemerait_Chess_Board\obj\Debug\Kemerait_Chess_Board.exe
+E:\HTKB\Projects\Programs\Kemerait_Chess_Board\Kemerait_Chess_Board\obj\Debug\Kemerait_Chess_Board.pdb
+E:\HTKB\Projects\Programs\Kemerait_Chess_Board\Kemerait_Chess_Board\obj\Debug\ResolveAssemblyReference.cache
+E:\HTKB\Projects\Programs\Kemerait_Chess_Board\Kemerait_Chess_Board\bin\Debug\Kemerait_Chess_Board.exe
+E:\HTKB\Projects\Programs\Kemerait_Chess_Board\Kemerait_Chess_Board\bin\Debug\Kemerait_Chess_Board.pdb
+L:\HTKB\Projects\Programs\Kemerait_Chess_Board\Kemerait_Chess_Board\obj\Debug\Kemerait_Chess_Board.exe
+L:\HTKB\Projects\Programs\Kemerait_Chess_Board\Kemerait_Chess_Board\obj\Debug\Kemerait_Chess_Board.pdb
+L:\HTKB\Projects\Programs\Kemerait_Chess_Board\Kemerait_Chess_Board\bin\Debug\Kemerait_Chess_Board.exe
+L:\HTKB\Projects\Programs\Kemerait_Chess_Board\Kemerait_Chess_Board\bin\Debug\Kemerait_Chess_Board.pdb
+L:\HTKB\Projects\Programs\Kemerait_Chess_Board\Kemerait_Chess_Board\obj\Debug\ResolveAssemblyReference.cache
+D:\House\Projects\Programs\Kemerait_Chess_Board\Kemerait_Chess_Board\obj\Debug\Kemerait_Chess_Board.exe
+D:\House\Projects\Programs\Kemerait_Chess_Board\Kemerait_Chess_Board\obj\Debug\Kemerait_Chess_Board.pdb
+D:\House\Programming\Visual Studio\Kemerait_Chess_Board\Kemerait_Chess_Board\obj\Debug\Kemerait_Chess_Board.exe
+D:\House\Programming\Visual Studio\Kemerait_Chess_Board\Kemerait_Chess_Board\obj\Debug\Kemerait_Chess_Board.pdb
+D:\House\Programming\Visual Studio\Kemerait_Chess_Board\Kemerait_Chess_Board\bin\Debug\Kemerait_Chess_Board.exe
+D:\House\Programming\Visual Studio\Kemerait_Chess_Board\Kemerait_Chess_Board\bin\Debug\Kemerait_Chess_Board.pdb
+D:\House\Programming\Visual Studio\Kemerait_Chess_Board\Kemerait_Chess_Board\obj\Debug\ResolveAssemblyReference.cache
+C:\House\Programming\VisualStudio\VisualStudioRepository\_Processing\Kemerait_Chess_BoardB\Kemerait_Chess_Board\obj\Debug\Kemerait_Chess_Board.exe
+C:\House\Programming\VisualStudio\VisualStudioRepository\_Processing\Kemerait_Chess_BoardB\Kemerait_Chess_Board\obj\Debug\Kemerait_Chess_Board.pdb
