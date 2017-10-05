@@ -50,15 +50,19 @@
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">
-    <a href="http://htkb.dyndns.org/Section2/Section5/index.html">HTML</a></br>
-	<a href="http://htkb.dyndns.org/Section2/Section5/index.php">PHP</a></br>
-	<a href="http://htkb.dyndns.org/Javascript/Section2/Section5/index.html">HTML Javascript</a></br>
-	<a href="http://htkb.dyndns.org:81/ASP/Section2/Section5/index.asp">ASP Javascript</a></br>
-	<a href="http://htkb.dyndns.org:81/ASPNET/Section2/Section5/index.aspx">ASP.NET Javascript</a></br>
-	<a href="http://htkb.dyndns.org/Section2/Section5/index.shtml">Perl</a></br>
-	<a href="http://htkb.dyndns.org:8080/JSPApplication/Section2/Section5/index.jsp">JSP</a></br>
-	<a href="http://htkb.dyndns.org:8080/JSFApplication/Section2/Section5/index.xhtml">JSF</a></br>
-	<a href="http://htkb.dyndns.org:81/WebApplication/Section2/Section5/index.cshtml">ASP.NET Web App</a></br>
-	<a href="http://htkb.dyndns.org:81/MVC/Section2/Section5/index">ASP.NET MVC App</a></br>
-	<a href="http://htkb.dyndns.org/SSI/Section2/Section5/index.html">Apache SSI</a></br>
+    <a href="http://htkb.dyndns.org/Section2/Section5/Index.html">HTML</a></br>
+	<a href="http://htkb.dyndns.org/Section2/Section5/Index.php">PHP</a></br>
+	<a href="http://htkb.dyndns.org/Javascript/Section2/Section5/Index.html">HTML Javascript</a></br>
+	<a href="http://htkb.dyndns.org/JQuery/Section2/Section5/Index.html">JQuery</a></br>
+	<a href="http://htkb.dyndns.org:81/ASP/Section2/Section5/Index.asp">ASP Javascript</a></br>
+	<a href="http://htkb.dyndns.org:81/ASPNET/Section2/Section5/Index.aspx">ASP.NET Javascript</a></br>
+    <a href="http://htkb.dyndns.org:84/Section2/Section5/Index">Node JS</a></br>
+	<a href="http://htkb.dyndns.org/Section2/Section5/Index.shtml">Perl</a></br>
+	<a href="http://htkb.dyndns.org:8080/JSPApplication/Section2/Section5/Index.jsp">JSP</a></br>
+	<a href="http://htkb.dyndns.org:8080/JSFApplication/Section2/Section5/Index.xhtml">JSF</a></br>
+	<a href="http://htkb.dyndns.org:81/WebApplication/Section2/Section5/Index.cshtml">ASP.NET Web App</a></br>
+	<a href="http://htkb.dyndns.org:81/MVC/Main/Section2/Section5/Index">ASP.NET MVC App</a></br>
+	<a href="http://htkb.dyndns.org/SSI/Section2/Section5/Index.html">Apache SSI</a></br>
+    <a href="http://htkb.dyndns.org:82/Section2/Section5/Index">Python Web.py</a></br>
+    <a href="http://htkb.dyndns.org:83/Section2/Section5/Index">Ruby on Rails</a></br>
 </asp:Content>

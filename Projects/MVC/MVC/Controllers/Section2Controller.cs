@@ -48,7 +48,7 @@ namespace MVCApplication.Controllers
         public ActionResult Project6()
         {
             ViewBag.Message = "";
-            return View("~/Section2_6");
+            return View();
         }
 
         public ActionResult Project7()
@@ -94,12 +94,6 @@ namespace MVCApplication.Controllers
         }
 
         public ActionResult Project14()
-        {
-            ViewBag.Message = "";
-            return View();
-        }
-        
-        public ActionResult Project15()
         {
             ViewBag.Message = "";
             return View();

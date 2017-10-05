@@ -27,26 +27,25 @@
                 <h4>
                     Navigation
                 </h4>
-  			    <a  class="navlinkA" href="../../Section1/index.aspx">Gynowars</a><br /><br />
+  			    <a  class="navlinkA" href="../../Section1/Index.aspx">Gynowars</a><br /><br />
 				<a  class="navlinkA" href="../../Project2.aspx">Assault</a><br /><br />
 				<a  class="navlinkA" href="../../Project3.aspx">Mars</a><br /><br />
-				<a  class="navlinkA" href="../../Section4/index.aspx">Renley</a><br /><br />
-				<a  class="navlinkA" href="../../Section5/index.aspx">Antarrea</a><br /><br />
-                	<a  class="navlinkB" href="../Section1/index.aspx">Global</a><br /><br />
-					<a  class="navlinkB" href="../Section2/index.aspx">Grendol</a><br /><br />
-					<a  class="navlinkB" href="../Section3/index.aspx">Utopia</a><br /><br />
-					<a  class="navlinkB" href="../Section4/index.aspx">Elvia</a><br /><br />
+				<a  class="navlinkA" href="../../Section4/Index.aspx">Renley</a><br /><br />
+				<a  class="navlinkA" href="../../Section5/Index.aspx">Antarrea</a><br /><br />
+                	<a  class="navlinkB" href="../Section1/Index.aspx">Global</a><br /><br />
+					<a  class="navlinkB" href="../Section2/Index.aspx">Grendol</a><br /><br />
+					<a  class="navlinkB" href="../Section3/Index.aspx">Utopia</a><br /><br />
+					<a  class="navlinkB" href="../Section4/Index.aspx">Elvia</a><br /><br />
                 		<a  class="navlinkC" href="./Project1.aspx">Nine Card:</a><br /><br />
-				<a  class="navlinkA" href="../../Section6/index.aspx">Editations</a><br /><br />
-				<a  class="navlinkA" href="../../Project7.aspx">Truth</a><br /><br />
-				<a  class="navlinkA" href="../../Project8.aspx">Kingdoms</a><br /><br />
-				<a  class="navlinkA" href="../../Project9.aspx">Terminal World</a><br /><br />
-				<a  class="navlinkA" href="../../Project10.aspx">Monster Office Workplace</a><br /><br />
-				<a  class="navlinkA" href="../../Project11.aspx">Battle Princesses</a><br /><br />
-				<a  class="navlinkA" href="../../Project12.aspx">Sacred Offerings</a><br /><br />
-				<a  class="navlinkA" href="../../Project13.aspx">The Way</a><br /><br />
-				<a  class="navlinkA" href="../../Project14.aspx">Conspiratorium</a><br /><br />
-				<a  class="navlinkA" href="../../Project15.aspx">Conversion</a><br /><br />
+				<a  class="navlinkA" href="../../Project6.aspx">Truth</a><br /><br />
+				<a  class="navlinkA" href="../../Project7.aspx">Kingdoms</a><br /><br />
+				<a  class="navlinkA" href="../../Project8.aspx">Terminal World</a><br /><br />
+				<a  class="navlinkA" href="../../Project9.aspx">Monster Office Workplace</a><br /><br />
+				<a  class="navlinkA" href="../../Project10.aspx">Battle Princesses</a><br /><br />
+				<a  class="navlinkA" href="../../Project11.aspx">Sacred Offerings</a><br /><br />
+				<a  class="navlinkA" href="../../Project12.aspx">The Way</a><br /><br />
+				<a  class="navlinkA" href="../../Project13.aspx">Conspiratorium</a><br /><br />
+				<a  class="navlinkA" href="../../Project14.aspx">Conversion</a><br /><br />
 			</td>
 			<td id="idCenterRowMain">
                 <asp:ContentPlaceHolder ID="MainContent" runat="server"/>

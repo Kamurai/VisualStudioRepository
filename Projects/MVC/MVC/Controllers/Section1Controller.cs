@@ -14,28 +14,44 @@ namespace MVCApplication.Controllers
             return View();
         }
 
-        public ActionResult Project1HTML() //HTML
+        public String HTML()
         {
             ViewBag.Message = "";
-            return View("http://htkb.dyndns.org/Section1/Project1.html");
+            return "http://htkb.dyndns.org/Section1/Index.html";
         }
         
-        public ActionResult Project1PHP() //PHP
+        public ActionResult PHP()
         {
             ViewBag.Message = "";
-            return View("http://htkb.dyndns.org/Section1/Project1.php");
+            return View("http://htkb.dyndns.org/Section1/Index.php");
         }
 
-        public ActionResult Project3() //Perl
+        public ActionResult Perl()
         {
             ViewBag.Message = "";
-            return View("http://htkb.dyndns.org/Section1/Project3.shtml");
+            return View("http://htkb.dyndns.org/Section1/Index.shtml");
         }
 
-        public ActionResult Project4() //Apache SSI
+        public ActionResult ApacheSSI()
         {
             ViewBag.Message = "";
-            return View("http://htkb.dyndns.org/SSI/Section1/index.html");
+            return View("http://htkb.dyndns.org/SSI/Section1/Index.html");
         }
+
+        public ActionResult PythonWebPy()
+        {
+            ViewBag.Message = "";
+            return View("http://htkb.dyndns.org:82/Section1/Index.html");
+        }
+
+        public ActionResult RubyOnRails()
+        {
+            ViewBag.Message = "";
+            return View("http://htkb.dyndns.org:83/Section1/Index.html");
+        }
+
+
+
+
     }
 }

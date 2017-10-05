@@ -21,12 +21,16 @@
     <a href="http://htkb.dyndns.org/AboutUs.html">HTML</a></br>
 	<a href="http://htkb.dyndns.org/AboutUs.php">PHP</a></br>
 	<a href="http://htkb.dyndns.org/Javascript/AboutUs.html">HTML Javascript</a></br>
+	<a href="http://htkb.dyndns.org/JQuery/AboutUs.html">JQuery</a></br>
 	<a href="http://htkb.dyndns.org:81/ASP/AboutUs.asp">ASP Javascript</a></br>
 	<a href="http://htkb.dyndns.org:81/ASPNET/AboutUs.aspx">ASP.NET Javascript</a></br>
+    <a href="http://htkb.dyndns.org:84/AboutUs">Node JS</a></br>
 	<a href="http://htkb.dyndns.org/AboutUs.shtml">Perl</a></br>
 	<a href="http://htkb.dyndns.org:8080/JSPApplication/AboutUs.jsp">JSP</a></br>
 	<a href="http://htkb.dyndns.org:8080/JSFApplication/AboutUs.xhtml">JSF</a></br>
 	<a href="http://htkb.dyndns.org:81/WebApplication/AboutUs.cshtml">ASP.NET Web App</a></br>
 	<a href="http://htkb.dyndns.org:81/MVC/Main/AboutUs">ASP.NET MVC App</a></br>
 	<a href="http://htkb.dyndns.org/SSI/AboutUs.html">Apache SSI</a></br>
+    <a href="http://htkb.dyndns.org:82/AboutUs">Python Web.py</a></br>
+    <a href="http://htkb.dyndns.org:83/AboutUs">Ruby on Rails</a></br>
 </asp:Content>

@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class Template2_6_2_2Master : System.Web.UI.MasterPage
+public partial class _Project2_7 : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {

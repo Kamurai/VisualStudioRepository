@@ -25,12 +25,16 @@
     <a href="http://htkb.dyndns.org/Section3/Project1.html">HTML</a></br>
 	<a href="http://htkb.dyndns.org/Section3/Project1.php">PHP</a></br>
 	<a href="http://htkb.dyndns.org/Javascript/Section3/Project1.html">HTML Javascript</a></br>
+	<a href="http://htkb.dyndns.org/JQuery/Section3/Project1.html">JQuery</a></br>
 	<a href="http://htkb.dyndns.org:81/ASP/Section3/Project1.asp">ASP Javascript</a></br>
 	<a href="http://htkb.dyndns.org:81/ASPNET/Section3/Project1.aspx">ASP.NET Javascript</a></br>
+    <a href="http://htkb.dyndns.org:84/Section3/Project1">Node JS</a></br>
 	<a href="http://htkb.dyndns.org/Section3/Project1.shtml">Perl</a></br>
 	<a href="http://htkb.dyndns.org:8080/JSPApplication/Section3/Project1.jsp">JSP</a></br>
 	<a href="http://htkb.dyndns.org:8080/JSFApplication/Section3/Project1.xhtml">JSF</a></br>
 	<a href="http://htkb.dyndns.org:81/WebApplication/Section3/Project1.cshtml">ASP.NET Web App</a></br>
-	<a href="http://htkb.dyndns.org:81/MVC/Section3/Project1">ASP.NET MVC App</a></br>
+	<a href="http://htkb.dyndns.org:81/MVC/Main/Section3/Project1">ASP.NET MVC App</a></br>
 	<a href="http://htkb.dyndns.org/SSI/Section3/Project1.html">Apache SSI</a></br>
+    <a href="http://htkb.dyndns.org:82/Section3/Project1">Python Web.py</a></br>
+    <a href="http://htkb.dyndns.org:83/Section3/Project1">Ruby on Rails</a></br>
 </asp:Content>
