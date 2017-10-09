@@ -1,13 +1,12 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Template.master.cs" Inherits="Template3Master" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head runat="server">
-    <link href="~/Styles/Section3/Section3.css" rel="stylesheet" type="text/css" />
+    <link href="~/Styles/Section3.css" rel="stylesheet" type="text/css" />
     <asp:ContentPlaceHolder ID="HeadContent" runat="server"></asp:ContentPlaceHolder>
 </head>
 <body id="idBody">
-<font color="white">
     <table id="idTableMain">
         <tr id="idHeaderRow">
             <td id="idHeaderRowCenter" colspan="3">
@@ -57,6 +56,5 @@
             </td>
         </tr>
     </table>
-</font>
 </body>
 </html>

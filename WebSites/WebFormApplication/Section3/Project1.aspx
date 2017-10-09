@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Online Experience Downloads" Language="C#" MasterPageFile="~/Section3/Template.master" AutoEventWireup="true"
-    CodeFile="Project1.aspx.cs" Inherits="_Index3_1" %>
+    CodeFile="Project1.aspx.cs" Inherits="_Project3_1" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>

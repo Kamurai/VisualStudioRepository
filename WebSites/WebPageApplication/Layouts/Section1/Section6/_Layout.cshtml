@@ -4,12 +4,11 @@
     <meta charset="utf-8" />
     <title>HTKB: @Page.Title</title>
     @RenderSection("head", required: false)
-    <link href="@Href("~/Styles/Section1/Section1.css")" rel="stylesheet" type="text/css" />
+    <link href="@Href("~/Styles/Section1.css")" rel="stylesheet" type="text/css" />
     <link runat="server" rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" />
     <link runat="server" rel="icon" href="../../favicon.ico" type="image/ico" />
 </head>
 <body id="idBody">
-<font color="white">
     <table id="idTableMain">
         <tr id="idHeaderRow">
             <td id="idHeaderRowCenter" colspan="3">
@@ -18,10 +17,10 @@
         </tr>
         <tr id="idNavigationRow">
             <td id="idNavigationBar" colspan="3">
-                <a class="navBar" href="../../index.cshtml">Home</a>
-                <a class="navBar" href="../../Section1/index.cshtml">Web Programming</a>
-                <a class="navBar" href="../../Section2/index.cshtml">Private Projects</a>
-                <a class="navBar" href="../../Section3/index.cshtml">Downloadable Projects</a>
+                <a class="navBar" href="../../Index.cshtml">Home</a>
+                <a class="navBar" href="../../Section1/Index.cshtml">Web Programming</a>
+                <a class="navBar" href="../../Section2/Index.cshtml">Private Projects</a>
+                <a class="navBar" href="../../Section3/Index.cshtml">Downloadable Projects</a>
             </td>
         </tr>
         <tr id="idCenterRow">
@@ -72,6 +71,5 @@
             </td>
         </tr>
     </table>
-</font>
 </body>
 </html>

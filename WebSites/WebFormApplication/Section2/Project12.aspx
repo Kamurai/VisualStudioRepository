@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="The Way" Language="C#" MasterPageFile="~/Section2/Template.master" AutoEventWireup="true"
-    CodeFile="Project12.aspx.cs" Inherits="_Project2_13" %>
+    CodeFile="Project12.aspx.cs" Inherits="_Project2_12" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>

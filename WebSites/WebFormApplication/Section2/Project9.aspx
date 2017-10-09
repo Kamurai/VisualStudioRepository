@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Monster Office Workplace" Language="C#" MasterPageFile="~/Section2/Template.master" AutoEventWireup="true"
-    CodeFile="Project9.aspx.cs" Inherits="_Project2_10" %>
+    CodeFile="Project9.aspx.cs" Inherits="_Project2_9" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>

@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Sacred Offerings" Language="C#" MasterPageFile="~/Section2/Template.master" AutoEventWireup="true"
-    CodeFile="Project11.aspx.cs" Inherits="_Project2_12" %>
+    CodeFile="Project11.aspx.cs" Inherits="_Project2_11" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>

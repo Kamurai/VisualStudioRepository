@@ -4,75 +4,73 @@
     <meta charset="utf-8" />
     <title>HTKB: @Page.Title</title>
     @RenderSection("head", required: false)
-    <link href="@Href("~/Styles/Section1/Section1.css")" rel="stylesheet" type="text/css" />
+    <link href="@Href("~/Styles/Section1.css")" rel="stylesheet" type="text/css" />
     <link runat="server" rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" />
     <link runat="server" rel="icon" href="../../favicon.ico" type="image/ico" />
 </head>
 
 <body id="idBody">
-    <font color="white">
-        <table id="idTableMain">
-            <tr id="idHeaderRow">
-                <td id="idHeaderRowCenter" colspan="3">
-                    <img id="idLogo" src="../../Pictures/logo_HouseThatKamuraiBuilt_blueonblack.jpg" /><br>
-                </td>
-            </tr>
-            <tr id="idNavigationRow">
-                <td id="idNavigationBar" colspan="3">
-                    <a class="navBar" href="../../index.cshtml">Home</a>
-                    <a class="navBar" href="../../Section1/index.cshtml">Web Programming</a>
-                    <a class="navBar" href="../../Section2/index.cshtml">Private Projects</a>
-                    <a class="navBar" href="../../Section3/index.cshtml">Downloadable Projects</a>
-                </td>
-            </tr>
-            <tr id="idCenterRow">
-                <td id="idCenterRowLeft">
-                    <h4>
-                        Navigation
-                    </h4>
-                    <a class="navlinkA" href="http://htkb.dyndns.org/Section1/Index.html">HTML</a><br /><br />
-                    <a class="navlinkA" href="http://htkb.dyndns.org/Section1/Index.php">PHP</a><br /><br />
-                    <a class="navlinkA" href="../Section2/Index.cshtml">Javascript</a><br /><br />
-                        <a class="navlinkB" href='http://htkb.dyndns.org/Javascript/Section1/Section2/Index.html'>HTML Javascript</a><br /><br />
-                        <a class="navlinkB" href='http://htkb.dyndns.org/JQuery/Section1/Section2/Index.html'>JQuery</a><br /><br />
-                        <a class="navlinkB" href='http://htkb.dyndns.org:81/ASP/Section1/Section2/Index.asp'>ASP Javascript</a><br /><br />
-                        <a class="navlinkB" href='http://htkb.dyndns.org:81/ASPNET/Section1/Section2/Index.aspx'>ASP.NET Javascript</a><br /><br />
-                        <a class="navlinkB" href='http://htkb.dyndns.org:84/Section1/Index'>Node JS</a><br /><br />
-                    <a class="navlinkA" href="../Index.cshtml">Perl</a><br /><br />
-                    <a class="navlinkA" href="../Section4/Index.cshtml">Java</a><br /><br />
-                    <a class="navlinkA" href="../Section5/Index.cshtml">ASP.Net</a><br /><br />
-                    <a class="navlinkA" href="../Section6/index.cshtml">Databases</a><br /><br />
-                    <a class="navlinkA" href="http://htkb.dyndns.org/SSI/Section1/Index.html">Apache SSI</a><br /><br />
-                    <a class="navlinkA" href="http://htkb.dyndns.org:82/Section1/Index.html">Python Web.py</a><br /><br />
-                    <a class="navlinkA" href="http://htkb.dyndns.org:83/Section1/Index.html">Ruby on Rails</a><br /><br />
-                </td>
-                <td id="idCenterRowMain">
-                    <h2>
-                        @Page.Title
-                    </h2>
-                    @RenderBody()
-                </td>
-                <td id="idCenterRowRight">
-                    <h4>
-                        Information
-                    </h4>
-                    This is written with ASP.NET as a Web Page Application.<br /><br />
-                    Other versions can be found here:<br />
-                    @Html.Raw(@Page.Versions)
-                </td>
-            </tr>
-            <tr id="idFooterRow">
-                <td id="idFooterMain" colspan="3">
-                    <p id="idFooterContent">
-                        © Copyright 2012 All rights reserved<br>
-                        House That Kamurai Built<br>
-                    </p>
-                    <p id="idFooterManagement">
-                        Website managed by Kamurai.
-                    </p>
-                </td>
-            </tr>
-        </table>
-    </font>
+    <table id="idTableMain">
+        <tr id="idHeaderRow">
+            <td id="idHeaderRowCenter" colspan="3">
+                <img id="idLogo" src="../../Pictures/logo_HouseThatKamuraiBuilt_blueonblack.jpg" /><br>
+            </td>
+        </tr>
+        <tr id="idNavigationRow">
+            <td id="idNavigationBar" colspan="3">
+                <a class="navBar" href="../../Index.cshtml">Home</a>
+                <a class="navBar" href="../../Section1/Index.cshtml">Web Programming</a>
+                <a class="navBar" href="../../Section2/Index.cshtml">Private Projects</a>
+                <a class="navBar" href="../../Section3/Index.cshtml">Downloadable Projects</a>
+            </td>
+        </tr>
+        <tr id="idCenterRow">
+            <td id="idCenterRowLeft">
+                <h4>
+                    Navigation
+                </h4>
+                <a class="navlinkA" href="http://htkb.dyndns.org/Section1/Index.html">HTML</a><br /><br />
+                <a class="navlinkA" href="http://htkb.dyndns.org/Section1/Index.php">PHP</a><br /><br />
+                <a class="navlinkA" href="../Section2/Index.cshtml">Javascript</a><br /><br />
+                    <a class="navlinkB" href='http://htkb.dyndns.org/Javascript/Section1/Section2/Index.html'>HTML Javascript</a><br /><br />
+                    <a class="navlinkB" href='http://htkb.dyndns.org/JQuery/Section1/Section2/Index.html'>JQuery</a><br /><br />
+                    <a class="navlinkB" href='http://htkb.dyndns.org:81/ASP/Section1/Section2/Index.asp'>ASP Javascript</a><br /><br />
+                    <a class="navlinkB" href='http://htkb.dyndns.org:81/ASPNET/Section1/Section2/Index.aspx'>ASP.NET Javascript</a><br /><br />
+                    <a class="navlinkB" href='http://htkb.dyndns.org:84/Section1/Index'>Node JS</a><br /><br />
+                <a class="navlinkA" href="../Index.cshtml">Perl</a><br /><br />
+                <a class="navlinkA" href="../Section4/Index.cshtml">Java</a><br /><br />
+                <a class="navlinkA" href="../Section5/Index.cshtml">ASP.Net</a><br /><br />
+                <a class="navlinkA" href="../Section6/Index.cshtml">Databases</a><br /><br />
+                <a class="navlinkA" href="http://htkb.dyndns.org/SSI/Section1/Index.html">Apache SSI</a><br /><br />
+                <a class="navlinkA" href="http://htkb.dyndns.org:82/Section1/Index.html">Python Web.py</a><br /><br />
+                <a class="navlinkA" href="http://htkb.dyndns.org:83/Section1/Index.html">Ruby on Rails</a><br /><br />
+            </td>
+            <td id="idCenterRowMain">
+                <h2>
+                    @Page.Title
+                </h2>
+                @RenderBody()
+            </td>
+            <td id="idCenterRowRight">
+                <h4>
+                    Information
+                </h4>
+                This is written with ASP.NET as a Web Page Application.<br /><br />
+                Other versions can be found here:<br />
+                @Html.Raw(@Page.Versions)
+            </td>
+        </tr>
+        <tr id="idFooterRow">
+            <td id="idFooterMain" colspan="3">
+                <p id="idFooterContent">
+                    © Copyright 2012 All rights reserved<br>
+                    House That Kamurai Built<br>
+                </p>
+                <p id="idFooterManagement">
+                    Website managed by Kamurai.
+                </p>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>

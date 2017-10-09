@@ -4,12 +4,11 @@
     <meta charset="utf-8" />
     <title>HTKB: @Page.Title</title>
     @RenderSection("head", required: false)
-    <link href="@Href("~/Styles/Section2/Section2.css")" rel="stylesheet" type="text/css" />
+    <link href="@Href("~/Styles/Section2.css")" rel="stylesheet" type="text/css" />
     <link runat="server" rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" />
     <link runat="server" rel="icon" href="../../favicon.ico" type="image/ico" />
 </head>
 <body id="idBody">
-<font color="white">
     <table id="idTableMain">
         <tr id="idHeaderRow">
             <td id="idHeaderRowCenter" colspan="3">
@@ -18,10 +17,10 @@
         </tr>
         <tr id="idNavigationRow">
             <td id="idNavigationBar" colspan="3">
-                <a class="navBar" href="../../index.cshtml">Home</a>
-                <a class="navBar" href="../../Section1/index.cshtml">Web Programming</a>
-                <a class="navBar" href="../../Section2/index.cshtml">Private Projects</a>
-                <a class="navBar" href="../../Section3/index.cshtml">Downloadable Projects</a>
+                <a class="navBar" href="../../Index.cshtml">Home</a>
+                <a class="navBar" href="../../Section1/Index.cshtml">Web Programming</a>
+                <a class="navBar" href="../../Section2/Index.cshtml">Private Projects</a>
+                <a class="navBar" href="../../Section3/Index.cshtml">Downloadable Projects</a>
             </td>
         </tr>
         <tr id="idCenterRow">
@@ -29,13 +28,13 @@
                 <h4>
                     Navigation
                 </h4>
-                <a class="navlinkA" href="./Section1/index.cshtml">Gynowars</a><br /><br />
+                <a class="navlinkA" href="./Section1/Index.cshtml">Gynowars</a><br /><br />
                 <a class="navlinkA" href="../Project2.cshtml">Assault</a><br /><br />
                 <a class="navlinkA" href="../Project3.cshtml">Mars</a><br /><br />
-                <a class="navlinkA" href="../Section4/index.cshtml">Renley</a><br /><br />
+                <a class="navlinkA" href="../Section4/Index.cshtml">Renley</a><br /><br />
                     <a class="navlinkB" href="./Project1.cshtml">Warring Nations</a><br /><br />
                     <a class="navlinkB" href="./Project2.cshtml">Psychodom: The One Empire</a><br /><br />
-                <a class="navlinkA" href="../Section5/index.cshtml">Antarrea</a><br /><br />
+                <a class="navlinkA" href="../Section5/Index.cshtml">Antarrea</a><br /><br />
                 <a class="navlinkA" href="../../Project6.cshtml">Truth</a><br /><br />
                 <a class="navlinkA" href="../../Project7.cshtml">Kingdoms</a><br /><br />
                 <a class="navlinkA" href="../../Project8.cshtml">Terminal World</a><br /><br />
@@ -73,6 +72,5 @@
             </td>
         </tr>
     </table>
-</font>
 </body>
 </html>

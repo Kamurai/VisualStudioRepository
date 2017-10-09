@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Game Maker Downloads" Language="C#" MasterPageFile="~/Section3/Template.master" AutoEventWireup="true"
-    CodeFile="Project2.aspx.cs" Inherits="_Index3_2" %>
+    CodeFile="Project2.aspx.cs" Inherits="_Project3_2" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>

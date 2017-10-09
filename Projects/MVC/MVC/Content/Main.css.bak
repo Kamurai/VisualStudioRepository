@@ -245,6 +245,15 @@ navlink a:hover
     color: #00aa00;
 }
 
+.classGenericTable
+{
+    width: 100%;
+	max-width: 100%;
+    color: #aaaaaa;
+    border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
 /* IDs */
 #idBody
 {
