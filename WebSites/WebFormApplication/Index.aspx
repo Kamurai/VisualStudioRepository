@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="HTKB Home Page" Language="C#" MasterPageFile="~/Template.master" AutoEventWireup="true"
-    CodeFile="Index.aspx.cs" Inherits="_Project3_4" %>
+    CodeFile="Index.aspx.cs" Inherits="_Index" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>

@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Template.master.cs" Inherits="Template2Master" %>
+
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <link href="~/Styles/Division2.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body id="idBody">
+
+    <table id="idTableMain">
+        <tr id="idHeaderRow">
+            <td id="idHeaderRowCenter" colspan="3">
+                <img id="idLogo" src="../Pictures/logoHTKB.jpg"><br>
+			</td>
+        </tr>
+        <tr id="idNavigationRow">
+            <td id="idNavigationBar" colspan="3">
+                <a class="navBar" href="../Index.aspx">Home</a>
+				<a class="navBar" href="../Division1/Index.aspx">Web Programming</a>
+				<a class="navBar" href="../Division2/Index.aspx">Private Projects</a>
+				<a class="navBar" href="../Division3/Index.aspx">Downloadable Projects</a>
+			</td>
+		</tr>				
+		<tr id="idCenterRow">
+            <td id="idCenterRowLeft">
+                <h4>
+                    Navigation
+                </h4>
+  			    <a  class="navlinkA" href="./Section1/Index.aspx">Gynowars</a><br /><br />
+				<a  class="navlinkA" href="./Project2.aspx">Assault</a><br /><br />
+				<a  class="navlinkA" href="./Project3.aspx">Mars</a><br /><br />
+				<a  class="navlinkA" href="./Section4/Index.aspx">Renley</a><br /><br />
+				<a  class="navlinkA" href="./Section5/Index.aspx">Antarrea</a><br /><br />
+				<a  class="navlinkA" href="./Project6.aspx">Truth</a><br /><br />
+				<a  class="navlinkA" href="./Project7.aspx">Kingdoms</a><br /><br />
+				<a  class="navlinkA" href="./Project8.aspx">Terminal World</a><br /><br />
+				<a  class="navlinkA" href="./Project9.aspx">Monster Office Workplace</a><br /><br />
+				<a  class="navlinkA" href="./Project10.aspx">Battle Princesses</a><br /><br />
+				<a  class="navlinkA" href="./Project11.aspx">Sacred Offerings</a><br /><br />
+				<a  class="navlinkA" href="./Project12.aspx">The Way</a><br /><br />
+				<a  class="navlinkA" href="./Project13.aspx">Conspiratorium</a><br /><br />
+				<a  class="navlinkA" href="./Project14.aspx">Conversion</a><br /><br />
+			</td>
+			<td id="idCenterRowMain">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+			</td>
+			<td id="idCenterRowRight">
+            	<h4>
+					Information
+				</h4>
+				This is written with ASP.NET as a Web Form Application.<br /><br />
+                Other versions of this web page can be found here:<br />
+                <asp:ContentPlaceHolder ID="VersionContent" runat="server"/>
+			</td>
+		</tr>
+		<tr id="idFooterRow">
+            <td id="idFooterMain" colspan="3">
+                <p id="idFooterContent">
+                    © Copyright 2012 All rights reserved<br>
+                    House That Kamurai Built<br>
+                </p>
+                <p id="idFooterManagement">
+                    Website managed by Kamurai.
+                </p>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

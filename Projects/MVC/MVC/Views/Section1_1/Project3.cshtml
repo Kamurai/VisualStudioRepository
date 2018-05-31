@@ -1,0 +1,51 @@
+﻿@model MVC.Models.MySQLConnectionString
+@{
+    ViewBag.Title = "MySQL Programming";
+    Layout = "~/Views/Layouts/Division1/Section1/_Layout.cshtml";
+
+    Page.Versions = "<a href=\"http://htkb.dyndns.org/Section1/Section6/Project3.html\">HTML</a><br>";
+    Page.Versions += "<a href=\"http://htkb.dyndns.org/Section1/Section6/Project3.php\">PHP</a><br>";
+    Page.Versions += "<a href=\"http://htkb.dyndns.org/Javascript/Section1/Section6/Project3.html\">HTML Javascript</a><br>";
+    Page.Versions += "<a href=\"http://htkb.dyndns.org/JQuery/Section1/Section6/Project3.html\">JQuery</a><br>";
+    Page.Versions += "<a href=\"http://htkb.dyndns.org:81/ASP/Section1/Section6/Project3.asp\">ASP Javascript</a><br>";
+    Page.Versions += "<a href=\"http://htkb.dyndns.org:81/ASPNET/Section1/Section6/Project3.aspx\">ASP.NET Javascript</a><br>";
+    Page.Versions += "<a href=\"http://htkb.dyndns.org:84/Section1/Section6/Project3\">Node JS</a><br>";
+    Page.Versions += "<a href=\"http://htkb.dyndns.org/Section1/Section6/Project3.shtml\">Perl</a><br>";
+    Page.Versions += "<a href=\"http://htkb.dyndns.org:8080/JSPApplication/Section1/Section6/Project3.jsp\">JSP</a><br>";
+    Page.Versions += "<a href=\"http://htkb.dyndns.org:8080/JSFApplication/Section1/Section6/Project3.xhtml\">JSF</a><br>";
+    Page.Versions += "<a href=\"http://htkb.dyndns.org:81/WebApplication/Section1/Section6/Project3.cshtml\">ASP.NET Web App</a><br>";
+    Page.Versions += "<a href=\"http://htkb.dyndns.org:81/WebForm/Section1/Section6/Project3.aspx\">ASP.NET Webform</a><br>";
+    Page.Versions += "<a href=\"http://htkb.dyndns.org/SSI/Section1/Section6/Project3.html\">Apache SSI</a><br>";
+    Page.Versions += "<a href=\"http://htkb.dyndns.org:82/Section1/Section6/Project3\">Python Web.py</a><br>";
+    Page.Versions += "<a href=\"http://htkb.dyndns.org:83/Section1/Section6/Project3\">Ruby on Rails</a><br>";
+}
+
+<h2>@ViewBag.Message</h2>
+
+<h1>
+    MySQL Programming
+</h1>
+<p id="idCenterContent">
+    This section is dedicated to MySQL programming.
+
+
+    <table class="classGenericTable">
+        <tr>
+            <td>
+                MySQL Instance
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>Index</th>
+            <th>Color</th>
+        </tr>
+        @foreach (var test in Model.Colors)
+        {
+            <tr>
+                <td>@test.Indext</td>
+                <td>@test.Color</td>
+            </tr>
+        }
+    </table>
+</p>
