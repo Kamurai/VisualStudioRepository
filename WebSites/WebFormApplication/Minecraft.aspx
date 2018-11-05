@@ -59,17 +59,19 @@
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">
     <a href="http://htkb.dyndns.org/Minecraft.html">HTML</a></br>
 	<a href="http://htkb.dyndns.org/Minecraft.php">PHP</a></br>
-	<a href="http://htkb.dyndns.org/Javascript/Minecraft.html">HTML Javascript</a></br>
-	<a href="http://htkb.dyndns.org/JQuery/Minecraft.html">JQuery</a></br>
-	<a href="http://htkb.dyndns.org:81/ASP/Minecraft.asp">ASP Javascript</a></br>
-	<a href="http://htkb.dyndns.org:81/ASPNET/Minecraft.aspx">ASP.NET Javascript</a></br>
-    <a href="http://htkb.dyndns.org:84/Minecraft">Node JS</a></br>
 	<a href="http://htkb.dyndns.org/Minecraft.shtml">Perl</a></br>
-	<a href="http://htkb.dyndns.org:8080/JSPApplication/Minecraft.jsp">JSP</a></br>
+	<a href="http://htkb.dyndns.org/SSI/Minecraft.html">Apache SSI</a></br>
+    <a href="http://htkb.dyndns.org/Javascript/Minecraft.html">HTML Javascript</a></br>
+	<a href="http://htkb.dyndns.org/JQuery/Minecraft.html">JQuery</a></br>
+	<a href="http://htkb.dyndns.org/AngularJS/Minecraft.html">JQuery</a></br>
 	<a href="http://htkb.dyndns.org:8080/JSFApplication/Minecraft.xhtml">JSF</a></br>
+	<a href="http://htkb.dyndns.org:8080/JSPApplication/Minecraft.jsp">JSP</a></br>
+	<a href="http://htkb.dyndns.org:8080/SpringMVC/Minecraft.jsp">JSP Spring MVC</a></br>
+	<a href="http://htkb.dyndns.org:81/ASPNET/Minecraft.aspx">ASP.NET Javascript</a></br>
+	<a href="http://htkb.dyndns.org:81/ASP/Minecraft.asp">ASP VBscript</a></br>
 	<a href="http://htkb.dyndns.org:81/WebApplication/Minecraft.cshtml">ASP.NET Web App</a></br>
 	<a href="http://htkb.dyndns.org:81/MVC/Main/Minecraft">ASP.NET MVC App</a></br>
-	<a href="http://htkb.dyndns.org/SSI/Minecraft.html">Apache SSI</a></br>
-    <a href="http://htkb.dyndns.org:82/Minecraft">Python Web.py</a></br>
+	<a href="http://htkb.dyndns.org:82/Minecraft">Python Web.py</a></br>
     <a href="http://htkb.dyndns.org:83/Minecraft">Ruby on Rails</a></br>
+    <a href="http://htkb.dyndns.org:84/Minecraft">Node JS</a></br>
 </asp:Content>
