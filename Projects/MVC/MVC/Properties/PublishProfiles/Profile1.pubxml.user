@@ -67,7 +67,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/10/2016 10:15:28</publishTime>
     </File>
     <File Include="bin/MVC.dll">
-      <publishTime>06/06/2018 22:06:18</publishTime>
+      <publishTime>11/05/2018 00:27:07</publishTime>
     </File>
     <File Include="bin/MySql.Data.dll">
       <publishTime>04/01/2016 11:16:29</publishTime>
@@ -358,64 +358,64 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/10/2016 09:15:32</publishTime>
     </File>
     <File Include="Views/Division1/Index.cshtml">
-      <publishTime>11/12/2017 16:08:30</publishTime>
+      <publishTime>11/04/2018 23:59:22</publishTime>
     </File>
     <File Include="Views/Division2/Index.cshtml">
-      <publishTime>11/12/2017 16:08:30</publishTime>
+      <publishTime>11/04/2018 23:59:22</publishTime>
     </File>
     <File Include="Views/Division2/Project10.cshtml">
-      <publishTime>11/12/2017 16:08:30</publishTime>
+      <publishTime>11/04/2018 23:59:22</publishTime>
     </File>
     <File Include="Views/Division2/Project11.cshtml">
-      <publishTime>11/12/2017 16:08:30</publishTime>
+      <publishTime>11/04/2018 23:59:22</publishTime>
     </File>
     <File Include="Views/Division2/Project12.cshtml">
-      <publishTime>11/12/2017 16:08:30</publishTime>
+      <publishTime>11/04/2018 23:59:22</publishTime>
     </File>
     <File Include="Views/Division2/Project13.cshtml">
-      <publishTime>11/12/2017 16:08:30</publishTime>
+      <publishTime>11/04/2018 23:59:22</publishTime>
     </File>
     <File Include="Views/Division2/Project14.cshtml">
-      <publishTime>11/12/2017 16:08:30</publishTime>
+      <publishTime>11/04/2018 23:59:22</publishTime>
     </File>
     <File Include="Views/Division2/Project15.cshtml">
       <publishTime>11/12/2017 16:08:30</publishTime>
     </File>
     <File Include="Views/Division2/Project2.cshtml">
-      <publishTime>11/12/2017 16:08:29</publishTime>
+      <publishTime>11/04/2018 23:59:22</publishTime>
     </File>
     <File Include="Views/Division2/Project3.cshtml">
-      <publishTime>11/12/2017 16:08:29</publishTime>
+      <publishTime>11/04/2018 23:59:22</publishTime>
     </File>
     <File Include="Views/Division2/Project6.cshtml">
-      <publishTime>11/12/2017 16:08:29</publishTime>
+      <publishTime>11/04/2018 23:59:22</publishTime>
     </File>
     <File Include="Views/Division2/Project7.cshtml">
-      <publishTime>11/12/2017 16:08:29</publishTime>
+      <publishTime>11/04/2018 23:59:22</publishTime>
     </File>
     <File Include="Views/Division2/Project8.cshtml">
-      <publishTime>11/12/2017 16:08:29</publishTime>
+      <publishTime>11/04/2018 23:59:22</publishTime>
     </File>
     <File Include="Views/Division2/Project9.cshtml">
-      <publishTime>11/12/2017 16:08:30</publishTime>
+      <publishTime>11/04/2018 23:59:22</publishTime>
     </File>
     <File Include="Views/Division3/Index.cshtml">
-      <publishTime>11/12/2017 16:08:30</publishTime>
+      <publishTime>11/04/2018 23:59:22</publishTime>
     </File>
     <File Include="Views/Division3/Project1.cshtml">
-      <publishTime>11/12/2017 16:08:30</publishTime>
+      <publishTime>11/04/2018 23:59:22</publishTime>
     </File>
     <File Include="Views/Division3/Project2.cshtml">
-      <publishTime>11/12/2017 16:08:30</publishTime>
+      <publishTime>11/04/2018 23:59:22</publishTime>
     </File>
     <File Include="Views/Division3/Project3.cshtml">
-      <publishTime>11/12/2017 16:08:30</publishTime>
+      <publishTime>11/04/2018 23:59:22</publishTime>
     </File>
     <File Include="Views/Division3/Project4.cshtml">
-      <publishTime>11/12/2017 16:08:30</publishTime>
+      <publishTime>11/04/2018 23:59:22</publishTime>
     </File>
     <File Include="Views/Division3/Project5.cshtml">
-      <publishTime>11/12/2017 16:08:30</publishTime>
+      <publishTime>11/04/2018 23:59:22</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
       <publishTime>03/10/2016 09:15:23</publishTime>
@@ -463,22 +463,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/12/2017 16:04:24</publishTime>
     </File>
     <File Include="Views/Main/AboutUs.cshtml">
-      <publishTime>11/12/2017 16:00:20</publishTime>
+      <publishTime>11/04/2018 23:59:22</publishTime>
     </File>
     <File Include="Views/Main/Affiliation.cshtml">
       <publishTime>03/10/2016 09:33:21</publishTime>
     </File>
     <File Include="Views/Main/Index.cshtml">
-      <publishTime>11/12/2017 16:00:20</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Main/Media.cshtml">
-      <publishTime>11/12/2017 16:00:20</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Main/MemberPages.cshtml">
       <publishTime>03/10/2016 09:33:21</publishTime>
     </File>
     <File Include="Views/Main/Minecraft.cshtml">
-      <publishTime>11/12/2017 16:00:20</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Main/PublicProjects.cshtml">
       <publishTime>03/10/2016 09:33:21</publishTime>
@@ -553,22 +553,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/10/2016 09:46:15</publishTime>
     </File>
     <File Include="Views/Section1_1/Index.cshtml">
-      <publishTime>11/12/2017 16:19:51</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Section1_1/Project1.cshtml">
-      <publishTime>11/12/2017 16:19:51</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Section1_1/Project2.cshtml">
-      <publishTime>11/12/2017 16:19:51</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Section1_1/Project3.cshtml">
-      <publishTime>11/12/2017 16:19:51</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Section1_1/Project4.cshtml">
-      <publishTime>11/12/2017 16:19:51</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Section1_1/Project5.cshtml">
-      <publishTime>11/12/2017 16:17:37</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Section1_2/Index.cshtml">
       <publishTime>11/12/2017 16:08:29</publishTime>
@@ -754,70 +754,70 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/10/2016 09:46:15</publishTime>
     </File>
     <File Include="Views/Section2_1/Index.cshtml">
-      <publishTime>11/12/2017 16:31:57</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Section2_1/Project1.cshtml">
-      <publishTime>11/12/2017 16:31:57</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Section2_1/Project2.cshtml">
-      <publishTime>11/12/2017 16:31:57</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Section2_1/Project3.cshtml">
-      <publishTime>11/12/2017 16:31:57</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Section2_4/Index.cshtml">
-      <publishTime>11/12/2017 16:31:57</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Section2_4/Project1.cshtml">
-      <publishTime>11/12/2017 16:31:57</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Section2_4/Project2.cshtml">
-      <publishTime>11/12/2017 16:31:57</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Section2_5/Index.cshtml">
-      <publishTime>11/12/2017 16:31:57</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Section2_5_1/Index.cshtml">
-      <publishTime>11/12/2017 16:34:19</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Section2_5_1/Project1.cshtml">
-      <publishTime>11/12/2017 16:34:19</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Section2_5_1/Project2.cshtml">
-      <publishTime>11/12/2017 16:34:19</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Section2_5_1/Project3.cshtml">
-      <publishTime>11/12/2017 16:34:19</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Section2_5_1/Project4.cshtml">
-      <publishTime>11/12/2017 16:34:19</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Section2_5_1/Project5.cshtml">
-      <publishTime>11/12/2017 16:41:31</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Section2_5_1/Project6.cshtml">
-      <publishTime>11/12/2017 16:34:19</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Section2_5_2/Index.cshtml">
-      <publishTime>11/12/2017 16:34:19</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Section2_5_2/Project1.cshtml">
-      <publishTime>11/12/2017 16:34:19</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Section2_5_2/Project2.cshtml">
-      <publishTime>11/12/2017 16:34:19</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Section2_5_3/Index.cshtml">
-      <publishTime>11/12/2017 16:34:19</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Section2_5_3/Project1.cshtml">
-      <publishTime>11/12/2017 16:34:19</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Section2_5_4/Index.cshtml">
-      <publishTime>11/12/2017 16:34:19</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Section2_5_4/Project1.cshtml">
-      <publishTime>11/12/2017 16:34:19</publishTime>
+      <publishTime>11/04/2018 23:59:23</publishTime>
     </File>
     <File Include="Views/Section2_6/Index.cshtml">
       <publishTime>04/11/2017 17:51:39</publishTime>
