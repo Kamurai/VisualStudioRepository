@@ -25,7 +25,7 @@
 	<a href="http://htkb.dyndns.org/SSI/Index.html">Apache SSI</a></br>
     <a href="http://htkb.dyndns.org/Javascript/Index.html">HTML Javascript</a></br>
 	<a href="http://htkb.dyndns.org/JQuery/Index.html">JQuery</a></br>
-	<a href="http://htkb.dyndns.org/AngularJS/Index.html">JQuery</a></br>
+	<a href="http://htkb.dyndns.org/AngularJS/Index.html">Angular JS</a></br>
 	<a href="http://htkb.dyndns.org:8080/JSFApplication/Index.xhtml">JSF</a></br>
 	<a href="http://htkb.dyndns.org:8080/JSPApplication/Index.jsp">JSP</a></br>
 	<a href="http://htkb.dyndns.org:8080/SpringMVC/Index.jsp">JSP Spring MVC</a></br>

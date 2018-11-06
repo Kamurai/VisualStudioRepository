@@ -61,7 +61,7 @@
 	<a href="http://htkb.dyndns.org/SSI/Media.html">Apache SSI</a></br>
     <a href="http://htkb.dyndns.org/Javascript/Media.html">HTML Javascript</a></br>
 	<a href="http://htkb.dyndns.org/JQuery/Media.html">JQuery</a></br>
-	<a href="http://htkb.dyndns.org/AngularJS/Media.html">JQuery</a></br>
+	<a href="http://htkb.dyndns.org/AngularJS/Media.html">Angular JS</a></br>
 	<a href="http://htkb.dyndns.org:8080/JSFApplication/Media.xhtml">JSF</a></br>
 	<a href="http://htkb.dyndns.org:8080/JSPApplication/Media.jsp">JSP</a></br>
 	<a href="http://htkb.dyndns.org:8080/SpringMVC/Media.jsp">JSP Spring MVC</a></br>

@@ -35,7 +35,7 @@
 	<a href="http://htkb.dyndns.org/SSI/Division1/Section6/Project3.html">Apache SSI</a></br>
 	<a href="http://htkb.dyndns.org/Javascript/Division1/Section6/Project3.html">HTML Javascript</a></br>
 	<a href="http://htkb.dyndns.org/JQuery/Division1/Section6/Project3.html">JQuery</a></br>
-	<a href="http://htkb.dyndns.org/AngularJS/Division1/Section6/Project3.html">JQuery</a></br>
+	<a href="http://htkb.dyndns.org/AngularJS/Division1/Section6/Project3.html">Angular JS</a></br>
 	<a href="http://htkb.dyndns.org:8080/JSFApplication/Division1/Section6/Project3.xhtml">JSF</a></br>
 	<a href="http://htkb.dyndns.org:8080/JSPApplication/Division1/Section6/Project3.jsp">JSP</a></br>
 	<a href="http://htkb.dyndns.org:8080/SpringMVC/Division1/Section6/Project3.jsp">JSP Spring MVC</a></br>

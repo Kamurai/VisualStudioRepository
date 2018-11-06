@@ -21,7 +21,7 @@
 	<a href="http://htkb.dyndns.org/Division2/Section5/Section1/Project5.shtml">Perl</a></br>
 	<a href="http://htkb.dyndns.org/SSI/Division2/Section5/Section1/Project5.html">Apache SSI</a></br>
 	<a href="http://htkb.dyndns.org/Javascript/Division2/Section5/Section1/Project5.html">HTML Javascript</a></br>
-	<a href="http://htkb.dyndns.org/JQuery/Division2/Section5/Section1/Project5.html">JQuery</a></br>
+	<a href="http://htkb.dyndns.org/JQuery/Division2/Section5/Section1/Project5.html">Angular JS</a></br>
 	<a href="http://htkb.dyndns.org/AngularJS/Division2/Section5/Section1/Project5.html">JQuery</a></br>
 	<a href="http://htkb.dyndns.org:8080/JSFApplication/Division2/Section5/Section1/Project5.xhtml">JSF</a></br>
 	<a href="http://htkb.dyndns.org:8080/JSPApplication/Division2/Section5/Section1/Project5.jsp">JSP</a></br>
