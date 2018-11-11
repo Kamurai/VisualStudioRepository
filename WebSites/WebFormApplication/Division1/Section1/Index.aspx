@@ -1,18 +1,15 @@
 ﻿<%@ Page Title="Database Programming" Language="C#" MasterPageFile="~/Division1/Section1/Template.master" AutoEventWireup="true"
     CodeFile="Index.aspx.cs" Inherits="_Index1_1" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h1>
-	Database Programming
-</h1>
-<p id="idCenterContent">
-	This section is dedicated to database programming.
-</p>
-    
+	<h1>
+		Database Programming
+	</h1>
+	<div id="idCenterContent">
+		This section is dedicated to database programming.
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">

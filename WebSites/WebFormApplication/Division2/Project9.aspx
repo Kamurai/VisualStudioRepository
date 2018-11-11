@@ -1,19 +1,16 @@
 ﻿<%@ Page Title="Monster Office Workplace" Language="C#" MasterPageFile="~/Division2/Template.master" AutoEventWireup="true"
     CodeFile="Project9.aspx.cs" Inherits="_Project2_9" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h1>
-	Monster Office Workplace
-</h1>
-<p id="idCenterContent">
-	This section is dedicated to the card and board game project "Monster Office Workplace".  These monsters mean serious business.
-	Can you earn the most credit and smooze your way into a promotion?
-</p>
-    
+	<h1>
+		Monster Office Workplace
+	</h1>
+	<div id="idCenterContent">
+		This section is dedicated to the card and board game project "Monster Office Workplace".  These monsters mean serious business.
+		Can you earn the most credit and smooze your way into a promotion?
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">

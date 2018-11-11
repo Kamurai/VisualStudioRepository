@@ -1,31 +1,29 @@
 ﻿<%@ Page Title="MySQL Programming" Language="C#" MasterPageFile="~/Division1/Section1/Template.master" AutoEventWireup="true"
     CodeFile="Project3.aspx.cs" Inherits="_Project1_1_3" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h1>
-	MySQL Programming
-</h1>
-<p id="idCenterContent">
-	This section is dedicated to MySQL programming.
-</br>
-</br>
-    MySQL Instance
-    </br>
-    </br>
-    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:MySQLConnectionString %>" SelectCommand="SELECT * FROM test" ProviderName="<%$ ConnectionStrings:MySQLConnectionString.ProviderName %>">
-    </asp:SqlDataSource>
-    </br>
-    </br>
-    <asp:GridView
-          id="GridView1"
-          runat="server"
-          DataSourceID="SqlDataSource1">
-    </asp:GridView>
-
+	<h1>
+		MySQL Programming
+	</h1>
+	<div id="idCenterContent">
+			This section is dedicated to MySQL programming.
+		</br>
+		</br>
+			MySQL Instance
+		</br>
+		</br>
+			<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:MySQLConnectionString %>" SelectCommand="SELECT * FROM test" ProviderName="<%$ ConnectionStrings:MySQLConnectionString.ProviderName %>">
+			</asp:SqlDataSource>
+		</br>
+		</br>
+			<asp:GridView
+				  id="GridView1"
+				  runat="server"
+				  DataSourceID="SqlDataSource1">
+			</asp:GridView>
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">

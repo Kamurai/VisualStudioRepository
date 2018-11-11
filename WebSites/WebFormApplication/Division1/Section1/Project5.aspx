@@ -1,36 +1,33 @@
 ﻿<%@ Page Title="PostgreSQL Programming" Language="C#" MasterPageFile="~/Division1/Section1/Template.master" AutoEventWireup="true"
     CodeFile="Project5.aspx.cs" Inherits="_Project1_1_5" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h1>
-	PostgreSQL Programming
-</h1>
-<p id="idCenterContent">
-	This section is dedicated to PostgreSQL programming.
-</br>
-</br>
-    PostgreSQL Instance
-    </br>
-    </br>
-    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:PostgreSQLConnectionString %>" SelectCommand="SELECT * FROM &quot;Test&quot;.&quot;Test&quot;" ProviderName="<%$ ConnectionStrings:PostgreSQLConnectionString.ProviderName %>">
-    </asp:SqlDataSource>
-    </br>
-    </br>
-    <asp:GridView
-          id="GridView1"
-          runat="server"
-          DataSourceID="SqlDataSource1" AutoGenerateColumns="False">
-        <Columns>
-            <asp:BoundField DataField="Index" HeaderText="Index" SortExpression="Index" />
-            <asp:BoundField DataField="Color" HeaderText="Color" SortExpression="Color" />
-        </Columns>
-    </asp:GridView>
-</div>
-    
+	<h1>
+		PostgreSQL Programming
+	</h1>
+	<div id="idCenterContent">
+		This section is dedicated to PostgreSQL programming.
+	</br>
+	</br>
+		PostgreSQL Instance
+		</br>
+		</br>
+		<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:PostgreSQLConnectionString %>" SelectCommand="SELECT * FROM &quot;Test&quot;.&quot;Test&quot;" ProviderName="<%$ ConnectionStrings:PostgreSQLConnectionString.ProviderName %>">
+		</asp:SqlDataSource>
+		</br>
+		</br>
+		<asp:GridView
+			  id="GridView1"
+			  runat="server"
+			  DataSourceID="SqlDataSource1" AutoGenerateColumns="False">
+			<Columns>
+				<asp:BoundField DataField="Index" HeaderText="Index" SortExpression="Index" />
+				<asp:BoundField DataField="Color" HeaderText="Color" SortExpression="Color" />
+			</Columns>
+		</asp:GridView>
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">

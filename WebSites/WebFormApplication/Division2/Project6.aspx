@@ -1,18 +1,15 @@
 ﻿<%@ Page Title="Truth" Language="C#" MasterPageFile="~/Division2/Template.master" AutoEventWireup="true"
     CodeFile="Project6.aspx.cs" Inherits="_Project2_6" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h1>
-	Truth
-</h1>
-<p id="idCenterContent">
-	This section is dedicated to the MMO RTS project "Truth".  Explore the galaxy, smuggle goods, steal from your friends and battle your adversaries.
-</p>
-    
+	<h1>
+		Truth
+	</h1>
+	<div id="idCenterContent">
+		This section is dedicated to the MMO RTS project "Truth".  Explore the galaxy, smuggle goods, steal from your friends and battle your adversaries.
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">

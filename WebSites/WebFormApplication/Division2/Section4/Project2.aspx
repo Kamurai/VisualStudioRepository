@@ -1,20 +1,17 @@
 ﻿<%@ Page Title="Psychodom: The One Empire" Language="C#" MasterPageFile="~/Division2/Section4/Template.master" AutoEventWireup="true"
     CodeFile="Project2.aspx.cs" Inherits="_Project2_4_2" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h1>
-	Psychodom: The One Empire
-</h1>
-<p id="idCenterContent">
-	Psychodom: The One Empire is a 3rd person perspective Adventure / RPG.  
-	The protagonist is tasked with investigating various situations leading 
-	to a conspiracy about who is really ruling the continent.
-</p>
-    
+	<h1>
+		Psychodom: The One Empire
+	</h1>
+	<div id="idCenterContent">
+		Psychodom: The One Empire is a 3rd person perspective Adventure / RPG.  
+		The protagonist is tasked with investigating various situations leading 
+		to a conspiracy about who is really ruling the continent.
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">

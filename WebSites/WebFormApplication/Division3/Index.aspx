@@ -1,18 +1,15 @@
 ﻿<%@ Page Title="Downloadable Projects" Language="C#" MasterPageFile="~/Division3/Template.master" AutoEventWireup="true"
     CodeFile="Index.aspx.cs" Inherits="_Index3" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h1>
-	Downloadable Projects
-</h1>
-<p id="idCenterContent">
-	This section is dedicated to downloadable projects.
-</p>
-    
+	<h1>
+		Downloadable Projects
+	</h1>
+	<div id="idCenterContent">
+		This section is dedicated to downloadable projects.
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">

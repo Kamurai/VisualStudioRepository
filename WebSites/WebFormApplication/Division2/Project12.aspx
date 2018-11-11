@@ -1,19 +1,16 @@
 ﻿<%@ Page Title="The Way" Language="C#" MasterPageFile="~/Division2/Template.master" AutoEventWireup="true"
     CodeFile="Project12.aspx.cs" Inherits="_Project2_12" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h1>
-	The Way
-</h1>
-<p id="idCenterContent">
-	This section is dedicated to the card game project "The Way".  You seek to find enlightment by contemplating the elements.
-	Escape the binds of the world and the board to reach enlightment and win.
-</p>
-    
+	<h1>
+		The Way
+	</h1>
+	<div id="idCenterContent">
+		This section is dedicated to the card game project "The Way".  You seek to find enlightment by contemplating the elements.
+		Escape the binds of the world and the board to reach enlightment and win.
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">

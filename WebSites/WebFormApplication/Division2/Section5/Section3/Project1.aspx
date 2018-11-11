@@ -1,18 +1,15 @@
 ﻿<%@ Page Title="Elemental Angels" Language="C#" MasterPageFile="~/Division2/Section5/Section3/Template.master" AutoEventWireup="true"
     CodeFile="Project1.aspx.cs" Inherits="_Project2_5_3_1" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h2>
-    Elemental Angels
-</h2>
-<p id="idCenterContent">
-	Elemental Angels: Adventure game with RPG elements based in the Avia Nation.
-</p>
-    
+	<h2>
+		Elemental Angels
+	</h2>
+	<div id="idCenterContent">
+		Elemental Angels: Adventure game with RPG elements based in the Avia Nation.
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">

@@ -1,21 +1,18 @@
 ﻿<%@ Page Title="Gynowars" Language="C#" MasterPageFile="~/Division2/Section1/Template.master" AutoEventWireup="true"
     CodeFile="Project2.aspx.cs" Inherits="_Project2_1_2" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h1>
-	Gynowars: Battle Arena CCG
-</h1>
-<p id="idCenterContent">
-	Gynowars: Battle Arena is a CCG that pits teams of creatures against each other 
-	in an arena-like environment.  There are several scenarios to run, to include:
-	</br>
-	"Death Match", "Ring the Bell", and "Head Hunt".	
-</p>
-    
+	<h1>
+		Gynowars: Battle Arena CCG
+	</h1>
+	<div id="idCenterContent">
+		Gynowars: Battle Arena is a CCG that pits teams of creatures against each other 
+		in an arena-like environment.  There are several scenarios to run, to include:
+		</br>
+		"Death Match", "Ring the Bell", and "Head Hunt".	
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">

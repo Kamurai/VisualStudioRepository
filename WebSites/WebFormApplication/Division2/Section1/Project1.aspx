@@ -1,19 +1,16 @@
 ﻿<%@ Page Title="Gynowars" Language="C#" MasterPageFile="~/Division2/Section1/Template.master" AutoEventWireup="true"
     CodeFile="Project1.aspx.cs" Inherits="_Project2_1_1" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h1>
-	Gynowars RPG
-</h1>
-<p id="idCenterContent">
-	The Gynowars RPG is a "pokemon-like" tactical RPG.  
-	The protagonist uses creatures to fight battles against other creatures to progress through the storyline.
-</p>
-    
+	<h1>
+		Gynowars RPG
+	</h1>
+	<div id="idCenterContent">
+		The Gynowars RPG is a "pokemon-like" tactical RPG.  
+		The protagonist uses creatures to fight battles against other creatures to progress through the storyline.
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">

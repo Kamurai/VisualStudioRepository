@@ -1,24 +1,21 @@
 ﻿<%@ Page Title="Online Experience Downloads" Language="C#" MasterPageFile="~/Division3/Template.master" AutoEventWireup="true"
     CodeFile="Project1.aspx.cs" Inherits="_Project3_1" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h2>
-	Online Experience Downloads
-</h2>
-<p id="idCenterContent">
-    Here are downloads to play Cube World with us:</br>
-    </br>
-    Cube World:<t><a href="http://htkb.dyndns.org/Division3/downloads/CubeSetup3.exe">Come play Cube World!</a></br>
-    </br>
-    DirectX:<t><a href="http://htkb.dyndns.org/Division3/downloads/directx_Jun2010_redist.exe">Direct X Redistrutable</a></br>
-    DirectX "Web":<t><a href="http://htkb.dyndns.org/Division3/downloads/dxwebsetup.exe">Direct X Redistrutable</a></br>
-    </br>
-</p>
-    
+	<h2>
+		Online Experience Downloads
+	</h2>
+	<div id="idCenterContent">
+		Here are downloads to play Cube World with us:</br>
+		</br>
+		Cube World:<t><a href="http://htkb.dyndns.org/Division3/downloads/CubeSetup3.exe">Come play Cube World!</a></br>
+		</br>
+		DirectX:<t><a href="http://htkb.dyndns.org/Division3/downloads/directx_Jun2010_redist.exe">Direct X Redistrutable</a></br>
+		DirectX "Web":<t><a href="http://htkb.dyndns.org/Division3/downloads/dxwebsetup.exe">Direct X Redistrutable</a></br>
+		</br>
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">

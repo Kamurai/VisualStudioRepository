@@ -1,19 +1,16 @@
 ﻿<%@ Page Title="Land of the Orcish Empire: Age of Magic" Language="C#" MasterPageFile="~/Division2/Section5/Section2/Template.master" AutoEventWireup="true"
     CodeFile="Project1.aspx.cs" Inherits="_Project2_5_2_1" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h2>
-    Land of the Orcish Empire: Age of Magic
-</h2>
-<p id="idCenterContent">
-	Land of the Orcish Empire: Age of Magic: is a CCG based on the different factions that 
-	comprise the Grendol Empire.
-</p>
-    
+	<h2>
+		Land of the Orcish Empire: Age of Magic
+	</h2>
+	<div id="idCenterContent">
+		Land of the Orcish Empire: Age of Magic: is a CCG based on the different factions that 
+		comprise the Grendol Empire.
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">

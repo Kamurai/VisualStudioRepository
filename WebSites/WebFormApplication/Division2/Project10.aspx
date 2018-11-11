@@ -1,19 +1,16 @@
 ﻿<%@ Page Title="Battle Princesses" Language="C#" MasterPageFile="~/Division2/Template.master" AutoEventWireup="true"
     CodeFile="Project10.aspx.cs" Inherits="_Project2_10" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h1>
-	Battle Princesses
-</h1>
-<p id="idCenterContent">
-	This section is dedicated to the card game project "Battle Princesses".  Ever wanted to see your favorite princess battle for the kingdom?
-	These princess aren't your helpless maidens, but valiant warriors themselves.
-</p>
-    
+	<h1>
+		Battle Princesses
+	</h1>
+	<div id="idCenterContent">
+		This section is dedicated to the card game project "Battle Princesses".  Ever wanted to see your favorite princess battle for the kingdom?
+		These princess aren't your helpless maidens, but valiant warriors themselves.
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">

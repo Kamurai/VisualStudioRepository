@@ -1,25 +1,22 @@
 ﻿<%@ Page Title="Antarrea Projects" Language="C#" MasterPageFile="~/Division2/Section5/Section1/Template.master" AutoEventWireup="true"
     CodeFile="Index.aspx.cs" Inherits="_Index2_5_1" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h2>
-    Global Antarrea
-</h2>
-<p id="idCenterContent">
-	Here are projects based in the Antarrea universe:</br>
-	</br>
-	Team Tactical: Crash Ball:               Tactical board game centered on a battle version of football.</br>
-	Wars of Antarrea:                        Table-top game where two or more armies battle for supremacy.</br>
-	Revolutions: Invading Nations:           Tactical RPG, 1st story arc.</br>
-	Revolutions: Rebellion Against the Fist: Tactical RPG, 2nd story arc.</br>
-	Revolutions: Return to Arms:             Tactical RPG, 3rd story arc.</br>
-	Revoultions: Post Wars:                  Tactical RPG, 4th story arc.</br>
-</p>
-    
+	<h2>
+		Global Antarrea
+	</h2>
+	<div id="idCenterContent">
+		Here are projects based in the Antarrea universe:</br>
+		</br>
+		Team Tactical: Crash Ball:               Tactical board game centered on a battle version of football.</br>
+		Wars of Antarrea:                        Table-top game where two or more armies battle for supremacy.</br>
+		Revolutions: Invading Nations:           Tactical RPG, 1st story arc.</br>
+		Revolutions: Rebellion Against the Fist: Tactical RPG, 2nd story arc.</br>
+		Revolutions: Return to Arms:             Tactical RPG, 3rd story arc.</br>
+		Revoultions: Post Wars:                  Tactical RPG, 4th story arc.</br>
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">

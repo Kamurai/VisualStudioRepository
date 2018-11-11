@@ -2,26 +2,24 @@
      Page Title="Oracle Programming" Language="C#" MasterPageFile="~/Division1/Section1/Template.master" AutoEventWireup="true"
     CodeFile="Project1.aspx.cs" Inherits="_Project1_1_1"     
 %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h1>
-	Oracle Programming
-</h1>
-<p id="idCenterContent">
-	This section is dedicated to Oracle programming.
-</br>
-</br>
-    Oracle Instance
-</br>
-</br>
-    At the time this was written, there was a 32 / 64 bit issue for Oracle XE 10g.</br>
-    Attempts to upgrade 10.2.1 to 10.2.2 don't seem to work.</br>
-    Other systems are dependent on the Oracle 10g database; this will be updated with the oracle database.</br>
-       
+	<h1>
+		Oracle Programming
+	</h1>
+	<div id="idCenterContent">
+			This section is dedicated to Oracle programming.
+		</br>
+		</br>
+			Oracle Instance
+		</br>
+		</br>
+			At the time this was written, there was a 32 / 64 bit issue for Oracle XE 10g.</br>
+			Attempts to upgrade 10.2.1 to 10.2.2 don't seem to work.</br>
+			Other systems are dependent on the Oracle 10g database; this will be updated with the oracle database.</br>
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">

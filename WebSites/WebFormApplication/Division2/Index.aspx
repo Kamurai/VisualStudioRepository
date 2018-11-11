@@ -1,18 +1,15 @@
 ﻿<%@ Page Title="Private Projects" Language="C#" MasterPageFile="~/Division2/Template.master" AutoEventWireup="true"
     CodeFile="Index.aspx.cs" Inherits="_Index2" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h1>
-	Private Projects
-</h1>
-<p id="idCenterContent">
-	This section is dedicated to HTKB projects.
-</p>
-    
+	<h1>
+		Private Projects
+	</h1>
+	<div id="idCenterContent">
+		This section is dedicated to HTKB projects.
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">

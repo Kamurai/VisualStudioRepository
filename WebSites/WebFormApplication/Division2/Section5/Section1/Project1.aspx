@@ -1,18 +1,15 @@
 ﻿<%@ Page Title="Team Tactical: Crash Ball" Language="C#" MasterPageFile="~/Division2/Section5/Section1/Template.master" AutoEventWireup="true"
     CodeFile="Project1.aspx.cs" Inherits="_Project2_5_1_1" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h2>
-    Team Tactical: Crash Ball
-</h2>
-<p id="idCenterContent">
-	Team Tactical: Crash Ball is a tactical board game centered on a battle version of football.
-</p>
-    
+	<h2>
+		Team Tactical: Crash Ball
+	</h2>
+	<div id="idCenterContent">
+		Team Tactical: Crash Ball is a tactical board game centered on a battle version of football.
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">

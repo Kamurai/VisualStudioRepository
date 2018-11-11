@@ -1,19 +1,16 @@
 ﻿<%@ Page Title="Conversion" Language="C#" MasterPageFile="~/Division2/Template.master" AutoEventWireup="true"
     CodeFile="Project14.aspx.cs" Inherits="_Project2_14" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h1>
-	Conversion
-</h1>
-<p id="idCenterContent">
-	This section is dedicated to the board game project "Conversion".
-	Compete on the elemental market by processing elements and becoming the elemental kingpin.
-</p>
-    
+	<h1>
+		Conversion
+	</h1>
+	<div id="idCenterContent">
+		This section is dedicated to the board game project "Conversion".
+		Compete on the elemental market by processing elements and becoming the elemental kingpin.
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">

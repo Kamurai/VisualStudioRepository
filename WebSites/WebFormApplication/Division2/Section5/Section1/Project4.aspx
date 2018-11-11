@@ -1,18 +1,15 @@
 ﻿<%@ Page Title="Revolutions: Rebellion Against the Fist" Language="C#" MasterPageFile="~/Division2/Section5/Section1/Template.master" AutoEventWireup="true"
     CodeFile="Project4.aspx.cs" Inherits="_Project2_5_1_4" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h2>
-    Revolutions: Rebellion Against the Fist
-</h2>
-<p id="idCenterContent">
-	Revolutions is a Tactical RPG with Rebellion Against the Fist as its 2nd story arc.
-</p>
-    
+	<h2>
+		Revolutions: Rebellion Against the Fist
+	</h2>
+	<div id="idCenterContent">
+		Revolutions is a Tactical RPG with Rebellion Against the Fist as its 2nd story arc.
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">

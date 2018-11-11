@@ -17,37 +17,37 @@ namespace MVCApplication.Controllers
         public String HTML()
         {
             ViewBag.Message = "";
-            return "http://htkb.dyndns.org/Section1/Index.html";
+            return "http://htkb.dyndns.org/Division1/Index.html";
         }
         
         public ActionResult PHP()
         {
             ViewBag.Message = "";
-            return View("http://htkb.dyndns.org/Section1/Index.php");
+            return View("http://htkb.dyndns.org/Division1/Index.php");
         }
 
         public ActionResult Perl()
         {
             ViewBag.Message = "";
-            return View("http://htkb.dyndns.org/Section1/Index.shtml");
+            return View("http://htkb.dyndns.org/Division1/Index.shtml");
         }
 
         public ActionResult ApacheSSI()
         {
             ViewBag.Message = "";
-            return View("http://htkb.dyndns.org/SSI/Section1/Index.html");
+            return View("http://htkb.dyndns.org/SSI/Division1/Index.html");
         }
 
         public ActionResult PythonWebPy()
         {
             ViewBag.Message = "";
-            return View("http://htkb.dyndns.org:82/Section1/Index.html");
+            return View("http://htkb.dyndns.org:82/Division1/Index.html");
         }
 
         public ActionResult RubyOnRails()
         {
             ViewBag.Message = "";
-            return View("http://htkb.dyndns.org:83/Section1/Index.html");
+            return View("http://htkb.dyndns.org:83/Division1/Index.html");
         }
 
 

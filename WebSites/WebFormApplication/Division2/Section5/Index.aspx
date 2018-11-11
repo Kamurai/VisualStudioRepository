@@ -1,52 +1,50 @@
 ﻿<%@ Page Title="Antarrea Projects" Language="C#" MasterPageFile="~/Division2/Section5/Template.master" AutoEventWireup="true"
     CodeFile="Index.aspx.cs" Inherits="_Index2_5" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h2>
-	Antarrea Projects
-</h2>
-<p id="idCenterContent">
-	Global:
-	<br/>
-	<br/>
-	Here are projects based in the Antarrea universe:</br>
-	</br>
-	Team Tactical: Crash Ball:               Tactical board game centered on a battle version of football.</br>
-	Wars of Antarrea:                        Table-top game where two or more armies battle for supremacy.</br>
-	Revolutions: Invading Nations:           Tactical RPG, 1st story arc.</br>
-	Revolutions: Rebellion Against the Fist: Tactical RPG, 2nd story arc.</br>
-	Revolutions: Return to Arms:             Tactical RPG, 3rd story arc.</br>
-	Revoultions: Post Wars:                  Tactical RPG, 4th story arc.</br>
-	<br/>
-	<br/>
-		Grendol:
-	<br/>
-	<br/>
-	Here are projects based in the Grendol universe:</br>
-	</br>
-	Grendol: Land of the Orcish Empire: Age of Magic: CCG.</br>
-	Grendol: Coliseum: Arena:                         CCG.</br>
-	<br/>
-	<br/>
-		Utopia:
-	<br/>
-	<br/>
-	Here are projects based in the Utopia universe:</br>
-	</br>
-	Avia: Elemental Angels: Adventure game with RPG elements.</br>
-	<br/>
-	<br/>
-		Elvia:
-	<br/>
-	<br/>
-	Here are projects based in the Elvia universe:</br>
-	</br>
-	Nine Card: Tactical card game.</br>
-</p>
+	<h2>
+		Antarrea Projects
+	</h2>
+	<div id="idCenterContent">
+		Global:
+		<br/>
+		<br/>
+		Here are projects based in the Antarrea universe:</br>
+		</br>
+		Team Tactical: Crash Ball:               Tactical board game centered on a battle version of football.</br>
+		Wars of Antarrea:                        Table-top game where two or more armies battle for supremacy.</br>
+		Revolutions: Invading Nations:           Tactical RPG, 1st story arc.</br>
+		Revolutions: Rebellion Against the Fist: Tactical RPG, 2nd story arc.</br>
+		Revolutions: Return to Arms:             Tactical RPG, 3rd story arc.</br>
+		Revoultions: Post Wars:                  Tactical RPG, 4th story arc.</br>
+		<br/>
+		<br/>
+			Grendol:
+		<br/>
+		<br/>
+		Here are projects based in the Grendol universe:</br>
+		</br>
+		Grendol: Land of the Orcish Empire: Age of Magic: CCG.</br>
+		Grendol: Coliseum: Arena:                         CCG.</br>
+		<br/>
+		<br/>
+			Utopia:
+		<br/>
+		<br/>
+		Here are projects based in the Utopia universe:</br>
+		</br>
+		Avia: Elemental Angels: Adventure game with RPG elements.</br>
+		<br/>
+		<br/>
+			Elvia:
+		<br/>
+		<br/>
+		Here are projects based in the Elvia universe:</br>
+		</br>
+		Nine Card: Tactical card game.</br>
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">

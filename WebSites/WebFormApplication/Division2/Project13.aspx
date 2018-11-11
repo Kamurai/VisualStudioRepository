@@ -1,19 +1,16 @@
 ﻿<%@ Page Title="Conspiratorium" Language="C#" MasterPageFile="~/Division2/Template.master" AutoEventWireup="true"
     CodeFile="Project13.aspx.cs" Inherits="_Project2_13" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h1>
-	Conspiratorium
-</h1>
-<p id="idCenterContent">
-	This section is dedicated to the board game project "Conspiratorium".
-	A game of assassins and CIA, you must remember who is friend and who is not.
-</p>
-    
+	<h1>
+		Conspiratorium
+	</h1>
+	<div id="idCenterContent">
+		This section is dedicated to the board game project "Conspiratorium".
+		A game of assassins and CIA, you must remember who is friend and who is not.
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">

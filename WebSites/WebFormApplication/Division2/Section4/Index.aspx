@@ -1,18 +1,15 @@
 ﻿<%@ Page Title="Renley" Language="C#" MasterPageFile="~/Division2/Section4/Template.master" AutoEventWireup="true"
     CodeFile="Index.aspx.cs" Inherits="_Index2_4" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h1>
-	Renley
-</h1>
-<p id="idCenterContent">
-	This section is dedicated to projects centered in the Renley universe.
-</p>
-    
+	<h1>
+		Renley
+	</h1>
+	<div id="idCenterContent">
+		This section is dedicated to projects centered in the Renley universe.
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">

@@ -24,26 +24,23 @@
     var selectQueryString = "SELECT * FROM Test";
 }
 
-<p id="idCenterContent">
+<div id="idCenterContent">
     This section is dedicated to Oracle programming.
-</p>
+</div>
 
-<table> 
-    <tr>
-        <td>
-            Oracle Instance  
-        </td>
-        <td></td>
-    </tr>
-    <tr>
-        <th>Index</th> 
-        <th>Color</th> 
-    </tr>
+<div> 
+    <div>
+		Oracle Instance  
+    </div>
+    <div>
+        <div>Index</div> 
+        <div>Color</div> 
+    </div>
     @foreach(var row in db.Query(selectQueryString))
     {
-        <tr> 
-            <td>@row.Indext</td> 
-            <td>@row.Color</td> 
-        </tr> 
+        <div> 
+            <div>@row.Indext</div> 
+            <div>@row.Color</div> 
+        </div> 
     }
-</table>
+</div>

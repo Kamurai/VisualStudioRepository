@@ -1,19 +1,16 @@
 ﻿<%@ Page Title="Terminal World" Language="C#" MasterPageFile="~/Division2/Template.master" AutoEventWireup="true"
     CodeFile="Project8.aspx.cs" Inherits="_Project2_8" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h1>
-	Terminal World
-</h1>
-<p id="idCenterContent">
-	This section is dedicated to the simulation MMO centered project "Terminal World".  This is a virtual environment where a zombie outbreak is about to happen.  Can you beat
-	the zombies?  Can you survive?
-</p>
-    
+	<h1>
+		Terminal World
+	</h1>
+	<div id="idCenterContent">
+		This section is dedicated to the simulation MMO centered project "Terminal World".  This is a virtual environment where a zombie outbreak is about to happen.  Can you beat
+		the zombies?  Can you survive?
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">

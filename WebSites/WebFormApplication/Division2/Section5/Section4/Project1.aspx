@@ -1,18 +1,15 @@
 ﻿<%@ Page Title="Nine Card" Language="C#" MasterPageFile="~/Division2/Section5/Section4/Template.master" AutoEventWireup="true"
     CodeFile="Project1.aspx.cs" Inherits="_Project2_5_4_1" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h2>
-    Nine Card
-</h2>
-<p id="idCenterContent">
-	Nine Card is a Tactical card game played through the Elvia Empire.
-</p>
-    
+	<h2>
+		Nine Card
+	</h2>
+	<div id="idCenterContent">
+		Nine Card is a Tactical card game played through the Elvia Empire.
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">

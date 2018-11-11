@@ -1,18 +1,15 @@
 ﻿<%@ Page Title="Gynowars" Language="C#" MasterPageFile="~/Division2/Section1/Template.master" AutoEventWireup="true"
     CodeFile="Index.aspx.cs" Inherits="_Index2_1" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h1>
-	Gynowars
-</h1>
-<p id="idCenterContent">
-	This section is dedicated to projects centered in the Gynowars universe.
-</p>
-    
+	<h1>
+		Gynowars
+	</h1>
+	<div id="idCenterContent">
+		This section is dedicated to projects centered in the Gynowars universe.
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">

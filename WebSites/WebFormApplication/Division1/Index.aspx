@@ -1,18 +1,15 @@
 ﻿<%@ Page Title="Web Programming" Language="C#" MasterPageFile="~/Division1/Template.master" AutoEventWireup="true"
     CodeFile="Index.aspx.cs" Inherits="_Index1" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h1>
-	Web Programming
-</h1>
-<p id="idCenterContent">
-	This section is dedicated to web-based programming.
-</p>
-    
+	<h1>
+		Web Programming
+	</h1>
+	<div id="idCenterContent">
+		This section is dedicated to web-based programming.
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">

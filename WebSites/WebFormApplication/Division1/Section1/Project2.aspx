@@ -1,21 +1,18 @@
 ﻿<%@ Page Title="Derby Programming" Language="C#" MasterPageFile="~/Division1/Section1/Template.master" AutoEventWireup="true"
     CodeFile="Project2.aspx.cs" Inherits="_Project1_1_2" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h1>
-	Derby Programming
-</h1>
-<p id="idCenterContent">
-	This section is dedicated to Derby programming.
-    </br>
-    </br>
-    It is supposedly not possible to have ASP.NET talk to the Java database at this time.
-</p>
-    
+	<h1>
+		Derby Programming
+	</h1>
+	<div id="idCenterContent">
+		This section is dedicated to Derby programming.
+		</br>
+		</br>
+		It is supposedly not possible to have ASP.NET talk to the Java database at this time.
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">

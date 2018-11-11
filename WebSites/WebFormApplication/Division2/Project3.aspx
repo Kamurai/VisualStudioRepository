@@ -1,18 +1,15 @@
 ﻿<%@ Page Title="Mars Projects" Language="C#" MasterPageFile="~/Division2/Template.master" AutoEventWireup="true"
     CodeFile="Project3.aspx.cs" Inherits="_Project2_3" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h1>
-	Mars Projects
-</h1>
-<p id="idCenterContent">
-	This section is dedicated to the Mars centered project "Opposition".
-</p>
-    
+	<h1>
+		Mars Projects
+	</h1>
+	<div id="idCenterContent">
+		This section is dedicated to the Mars centered project "Opposition".
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">

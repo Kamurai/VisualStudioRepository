@@ -1,20 +1,17 @@
 ﻿<%@ Page Title="Sacred Offerings" Language="C#" MasterPageFile="~/Division2/Template.master" AutoEventWireup="true"
     CodeFile="Project11.aspx.cs" Inherits="_Project2_11" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h1>
-	Sacred Offerings
-</h1>
-<p id="idCenterContent">
-	This section is dedicated to the board game project "Sacred Offerings".
-	Being a god is hard, you have to eat, but don't want to fall out favor with the people more than the other deities.
-	Draw people to worship you, but be discerning about who is sacrificed.
-</p>
-    
+	<h1>
+		Sacred Offerings
+	</h1>
+	<div id="idCenterContent">
+		This section is dedicated to the board game project "Sacred Offerings".
+		Being a god is hard, you have to eat, but don't want to fall out favor with the people more than the other deities.
+		Draw people to worship you, but be discerning about who is sacrificed.
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">

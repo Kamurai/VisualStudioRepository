@@ -1,18 +1,15 @@
 ﻿<%@ Page Title="Coliseum: Arena" Language="C#" MasterPageFile="~/Division2/Section5/Section2/Template.master" AutoEventWireup="true"
     CodeFile="Project2.aspx.cs" Inherits="_Project2_5_2_2" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<h2>
-    Coliseum: Arena
-</h2>
-<p id="idCenterContent">
-	Coliseum: Arena is a CCG representing the gladitorial arenas of Grendol.
-</p>
-    
+	<h2>
+		Coliseum: Arena
+	</h2>
+	<div id="idCenterContent">
+		Coliseum: Arena is a CCG representing the gladitorial arenas of Grendol.
+	</div>
 </asp:Content>
 
 <asp:Content ID="VersionContent" runat="server" ContentPlaceHolderID="VersionContent">
