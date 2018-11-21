@@ -1,14 +1,14 @@
-﻿<%@ Page Title="Revolutions: Invading Nations" Language="C#" MasterPageFile="~/Division2/Section5/Section1/Template.master" AutoEventWireup="true"
+﻿<%@ Page Title="Revolutions: Post Wars" Language="C#" MasterPageFile="~/Division2/Section5/Section1/Template.master" AutoEventWireup="true"
     CodeFile="Project6.aspx.cs" Inherits="_Project2_5_1_6" %>
 	<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
 	<h2>
-		Revolutions: Invading Nations
+		Revolutions: Post Wars
 	</h2>
 	<div id="idCenterContent">
-		Revolutions is a Tactical RPG with Invading Nations as its 1st story arc.
+		Revolutions is a Tactical RPG with Post Wars as its 4th story arc.
 	</div>
 </asp:Content>
 

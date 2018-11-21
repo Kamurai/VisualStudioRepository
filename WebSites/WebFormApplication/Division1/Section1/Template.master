@@ -3,7 +3,7 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 	<head runat="server">
-		<link href="~/Styles/Division1.css" rel="stylesheet" type="text/css" />
+		<link href="http://htkb.dyndns.org/Styles/Division1.css" rel="stylesheet" type="text/css" />
 		<asp:ContentPlaceHolder ID="HeadContent" runat="server"></asp:ContentPlaceHolder>
 	</head>
 	<body>
