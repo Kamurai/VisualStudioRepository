@@ -50,6 +50,9 @@
 					<a  class="navlinkA" href="../../Project12.aspx">The Way</a><br /><br />
 					<a  class="navlinkA" href="../../Project13.aspx">Conspiratorium</a><br /><br />
 					<a  class="navlinkA" href="../../Project14.aspx">Conversion</a><br /><br />
+					<a  class="navlinkA" href="../../Project15.aspx">Conquer</a><br /><br />
+					<a  class="navlinkA" href="../../Project16.aspx">Armor Up!</a><br /><br />
+					<a  class="navlinkA" href="../../Project17.aspx">Goblins and Guardians</a><br /><br />
 				</div>
 				<div id="idCenterRowMain">
 					<asp:ContentPlaceHolder ID="MainContent" runat="server"/>
