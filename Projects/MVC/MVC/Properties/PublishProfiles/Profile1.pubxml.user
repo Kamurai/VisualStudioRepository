@@ -67,7 +67,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/10/2016 10:15:28</publishTime>
     </File>
     <File Include="bin/MVC.dll">
-      <publishTime>08/13/2019 00:16:26</publishTime>
+      <publishTime>11/02/2020 17:10:08</publishTime>
     </File>
     <File Include="bin/MySql.Data.dll">
       <publishTime>04/01/2016 11:16:29</publishTime>
@@ -397,7 +397,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/11/2018 18:16:36</publishTime>
     </File>
     <File Include="Views/Division2/Project15.cshtml">
-      <publishTime>11/12/2017 16:08:30</publishTime>
+      <publishTime>09/18/2019 21:18:48</publishTime>
+    </File>
+    <File Include="Views/Division2/Project16.cshtml">
+      <publishTime>09/18/2019 21:18:48</publishTime>
+    </File>
+    <File Include="Views/Division2/Project17.cshtml">
+      <publishTime>09/18/2019 21:18:48</publishTime>
     </File>
     <File Include="Views/Division2/Project2.cshtml">
       <publishTime>11/11/2018 18:16:36</publishTime>
@@ -517,28 +523,28 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/13/2019 00:27:05</publishTime>
     </File>
     <File Include="Views/Layouts/Division2/Section1/_Layout.cshtml">
-      <publishTime>08/13/2019 00:27:04</publishTime>
+      <publishTime>09/18/2019 21:18:48</publishTime>
     </File>
     <File Include="Views/Layouts/Division2/Section4/_Layout.cshtml">
-      <publishTime>08/13/2019 00:27:04</publishTime>
+      <publishTime>09/18/2019 21:18:48</publishTime>
     </File>
     <File Include="Views/Layouts/Division2/Section5/Section1/_Layout.cshtml">
-      <publishTime>08/13/2019 00:27:04</publishTime>
+      <publishTime>09/18/2019 21:18:48</publishTime>
     </File>
     <File Include="Views/Layouts/Division2/Section5/Section2/_Layout.cshtml">
-      <publishTime>08/13/2019 00:27:04</publishTime>
+      <publishTime>09/18/2019 21:18:48</publishTime>
     </File>
     <File Include="Views/Layouts/Division2/Section5/Section3/_Layout.cshtml">
-      <publishTime>08/13/2019 00:27:04</publishTime>
+      <publishTime>09/18/2019 21:18:48</publishTime>
     </File>
     <File Include="Views/Layouts/Division2/Section5/Section4/_Layout.cshtml">
-      <publishTime>08/13/2019 00:27:04</publishTime>
+      <publishTime>09/18/2019 21:18:48</publishTime>
     </File>
     <File Include="Views/Layouts/Division2/Section5/_Layout.cshtml">
-      <publishTime>08/13/2019 00:27:04</publishTime>
+      <publishTime>09/18/2019 21:18:48</publishTime>
     </File>
     <File Include="Views/Layouts/Division2/_Layout.cshtml">
-      <publishTime>08/13/2019 00:27:04</publishTime>
+      <publishTime>09/18/2019 21:18:48</publishTime>
     </File>
     <File Include="Views/Layouts/Division3/_Layout.cshtml">
       <publishTime>08/13/2019 00:27:05</publishTime>

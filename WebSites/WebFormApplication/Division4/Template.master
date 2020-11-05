@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Template.master.cs" Inherits="Template4Master" %>
+
+<%@ Register TagPrefix="uc" TagName="NavBar" Src="~/Universal/NavBar.ascx" %>
+<%@ Register TagPrefix="uc" TagName="Logo" Src="~/Universal/Logo.ascx" %>
+<%@ Register TagPrefix="uc" TagName="NavigationHeader" Src="~/Universal/NavigationHeader.ascx" %>
+<%@ Register TagPrefix="uc" TagName="Navigation" Src="./Navigation.ascx" %>
+<%@ Register TagPrefix="uc" TagName="InformationHeader" Src="~/Universal/InformationHeader.ascx" %>
+<%@ Register TagPrefix="uc" TagName="FooterContent" Src="~/Universal/FooterContent.ascx" %>
+<%@ Register TagPrefix="uc" TagName="WebMasterFooter" Src="~/Universal/WebMasterFooter.ascx" %>
+
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head runat="server">
+		<link href="http://htkb.dyndns.org/Styles/Division4.css" rel="stylesheet" type="text/css" />
+		<asp:ContentPlaceHolder ID="HeadContent" runat="server"></asp:ContentPlaceHolder>
+	</head>
+	<body>
+		<div id="idGeneralLayout">
+			<Header id="idHeaderRow">
+				<div id="idHeaderRowCenter">
+					<uc:Logo runat="server"/>
+				</div>
+			</Header>
+			<Nav id="idNavigationRow">
+				<div id="idNavigationBar">
+					<uc:NavBar runat="server"/>
+				</div>
+			</Nav>				
+			<div id="idCenterRow">
+				<div id="idCenterRowLeft">
+					<uc:NavigationHeader runat="server"/>
+					<uc:Navigation runat="server"/>
+				</div>
+				<div id="idCenterRowMain">
+					<asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+				</div>
+				<div id="idCenterRowRight">
+					<uc:InformationHeader runat="server"/>
+					<asp:ContentPlaceHolder ID="VersionContent" runat="server"/>
+				</div>
+			</div>
+			<Footer id="idFooterRow">
+				<div id="idFooterMain">
+					<uc:FooterContent runat="server"/>
+					<uc:WebMasterFooter runat="server"/>
+				</div>
+			</Footer>
+		</div>
+	</body>
+</html>

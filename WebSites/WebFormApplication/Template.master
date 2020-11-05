@@ -1,5 +1,13 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Template.master.cs" Inherits="TemplateMaster" %>
 
+<%@ Register TagPrefix="uc" TagName="NavBar" Src="~/Universal/NavBar.ascx" %>
+<%@ Register TagPrefix="uc" TagName="Logo" Src="~/Universal/Logo.ascx" %>
+<%@ Register TagPrefix="uc" TagName="NavigationHeader" Src="~/Universal/NavigationHeader.ascx" %>
+<%@ Register TagPrefix="uc" TagName="Navigation" Src="./Navigation.ascx" %>
+<%@ Register TagPrefix="uc" TagName="InformationHeader" Src="~/Universal/InformationHeader.ascx" %>
+<%@ Register TagPrefix="uc" TagName="FooterContent" Src="~/Universal/FooterContent.ascx" %>
+<%@ Register TagPrefix="uc" TagName="WebMasterFooter" Src="~/Universal/WebMasterFooter.ascx" %>
+
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 	<head runat="server">
@@ -10,47 +18,31 @@
 		<div id="idGeneralLayout">
 			<Header id="idHeaderRow">
 				<div id="idHeaderRowCenter">
-					<img id="idLogo" src="Pictures/logoHTKB.jpg"><br>
+					<uc:Logo runat="server"/>
 				</div>
 			</Header>
 			<Nav id="idNavigationRow">
 				<div id="idNavigationBar">
-					<a class="navBar" href="./Index.aspx">Home</a>
-					<a class="navBar" href="./Division1/Index.aspx">Web Programming</a>
-					<a class="navBar" href="./Division2/Index.aspx">Private Projects</a>
-					<a class="navBar" href="./Division3/Index.aspx">Downloadable Projects</a>
+				    <uc:NavBar runat="server"/>
 				</div>
 			</Nav>				
 			<div id="idCenterRow">
 				<div id="idCenterRowLeft">
-					<h4>
-						Navigation
-					</h4>
-					<a class="navlinkA" href="./AboutUs.aspx">About Us</a><br /><br />
-					<a class="navlinkA" href="./Media.aspx">Media</a><br /><br />
-					<a class="navlinkA" href="./Minecraft.aspx">Minecraft!</a><br /><br />
+					<uc:NavigationHeader runat="server"/>
+					<uc:Navigation runat="server"/>
 				</div>
 				<div id="idCenterRowMain">
 					<asp:ContentPlaceHolder ID="MainContent" runat="server"/>
 				</div>
 				<div id="idCenterRowRight">
-					<h4>
-						Information
-					</h4>
-					This is written with ASP.NET as a Web Form Application.<br /><br />
-					Other versions of this web page can be found here:<br />
+					<uc:InformationHeader runat="server"/>
 					<asp:ContentPlaceHolder ID="VersionContent" runat="server"/>
 				</div>
 			</div>
 			<Footer id="idFooterRow">
 				<div id="idFooterMain">
-					<p id="idFooterContent">
-						© Copyright 2012 All rights reserved<br>
-						House That Kamurai Built<br>
-					</p>
-					<p id="idFooterManagement">
-						Website managed by Kamurai.
-					</p>
+					<uc:FooterContent runat="server"/>
+					<uc:WebMasterFooter runat="server"/>
 				</div>
 			</Footer>
 		</div>
